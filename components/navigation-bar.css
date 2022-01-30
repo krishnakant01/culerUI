@@ -1,0 +1,73 @@
+.nav-container {
+    display: flex;
+    padding: 0.25rem;
+    box-shadow: 0 0 10px 4px rgb(0 0 0 / 5%);
+}
+
+.nav-logo {
+    font-family: 'Roboto Slab', serif;
+    padding: 0.5rem 1rem;
+    
+}
+.nav-logo a {
+    text-decoration: none;
+}
+.nav-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-darker-gray);;
+
+}
+
+.nav-U-I {
+    font-weight: 600;
+}
+
+
+.nav-tagline {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #1f1f1f;
+}
+
+.nav-links {
+    
+}
+
+.nav-link-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link-list a {
+    text-decoration: none;
+}
+
+.nav-link-list-item {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--color-dark-gray);
+    transition: all 0.2s ease-in-out;
+}
+.nav-link-list-item:hover{
+    color: var(--color-barcelona-red);
+}
+
+.nav-social-links {
+    margin-left: auto;
+}
+
+.nav-social-links i {
+    color: var(--color-dark-gray);
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-social-links i:hover {
+    color: var(--color-barcelona-red);
+}
+
+.social-link-list-items {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+}

@@ -1,0 +1,101 @@
+.badge-container{
+    position: relative;
+    width: fit-content;
+}
+.badge{
+    align-items: flex-end;
+}
+.status-badge{
+    position: absolute;
+    min-width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    padding: 2px;
+    border: 2px solid var(--color-white);
+}
+.badge-container .lg-size ~ .status-badge {
+    right: 1.5em;
+    bottom: 0.75em;
+    height: 1.125em;
+    min-width: 1.125em;
+}
+.badge-container .m-size ~ .status-badge {
+    right: 0.5em;
+    bottom: 0.5em;
+    height: 0.75em;
+    min-width: 0.75em;
+}
+.badge-container .s-size ~ .status-badge {
+    right: 0em;
+    bottom: -0.25em;
+    height: 0.5em;
+    min-width: 0.5em;
+}
+.badge-container .btn ~ .status-badge {
+    right: -1em;
+    top: -1em;
+    height: 1em;
+    min-width: 1em;
+}
+.status-online{
+    background-color: var(--color-alert-succes-text);
+}
+.status-offline{
+    background-color: var(--color-barcelona-red);
+}
+.status-away{
+    background-color: var(--color-alert-warning-text);
+}
+.status-text{
+    background-color: var(--color-barcelona-red);
+    color: var(--color-white);
+    border: none;
+}
+.text-badge-container{
+    display: block;
+}
+.text-badge{
+    color: var(--color-white);
+    padding: 0rem 0.5rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8em;
+}
+.badge-primary{
+    background-color: var(--color-barcelona-red); 
+}
+
+.badge-secondary{
+    background-color: var(--color-barcelona-blue); 
+}
+.rounded-pill-badge{
+    border-radius: 50rem;
+}
+.text-badge-container h2{
+  font-size: 2.5rem;
+  color: var(--color-darker-gray); 
+}
+.text-badge-container h3{
+    font-size: 2.15rem; 
+    color: var(--color-darker-gray); 
+}
+.text-badge-container h4{
+    font-size: 1.75rem; 
+    color: var(--color-darker-gray); 
+}
+.text-badge-container h5{
+    font-size: 1.5rem; 
+    color: var(--color-darker-gray); 
+}
+.text-badge-container h6{
+    font-size: 1.4rem; 
+    color: var(--color-darker-gray); 
+}
+.text-badge-container p{
+    font-size: 1.1rem; 
+    color: var(--color-darker-gray);
+}

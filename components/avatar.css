@@ -10,6 +10,9 @@
 .avatar{
     border-radius: 50%;
     /* border: 2px solid var(--color-darker-gray); */
+   
+}
+.avatar-text{
     text-align: center;
     background-color: var(--color-medium-blue);
     color: var(--color-barcelona-blue);

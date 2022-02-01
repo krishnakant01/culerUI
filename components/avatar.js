@@ -14,7 +14,7 @@ avatarTemplate.innerHTML = `
 <p>Avatars are available in 3 sizes:</p>
 <p>1. Large size.</p>
 <p>2. Medium size.</p>
-<p>2. Small size.</p>
+<p>3. Small size.</p>
 
 <p class="sub-header">Example of Image Avatar</p>
 
@@ -45,18 +45,17 @@ avatarTemplate.innerHTML = `
 
 <div class="avatar-container">
 
-    <div class="avatar lg-size">
+    <div class="avatar avatar-text lg-size">
        <p>KS</p>
     </div>
 
-    <div class="avatar m-size">
+    <div class="avatar avatar-text m-size">
        <p>KS</p>
     </div>
 
-    <div class="avatar s-size">
+    <div class="avatar avatar-text s-size">
        <p>KS</p>
     </div>
-
 
 </div>
 

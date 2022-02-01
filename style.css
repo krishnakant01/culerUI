@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
 @import 'components/navigation-bar.css';
-@import 'components/alerts.css';
+@import 'components/alert.css';
 @import 'components/avatar.css';
+@import 'components/badge.css';
+@import 'components/button.css';
 
 :root {
     --color-white: #FFFFFF;
     --color-off-white: #F3F4F6;
     --color-black: #000000;
-    --color-barcelona-red: #C3023A;
+    --color-barcelona-red: #C3023A;            /*195 2 58*/
     --color-barcelona-blue: #054C96;
     --color-barcelona-yellow: #FFED02;
     --color-barcelona-dark-yellow: #E9B800;
@@ -18,7 +20,7 @@
     --color-dark-gray: #4B5563;
     --color-light-gray: #E5E7EB;
     --color-darker-gray: #212529;
-    --color-primary-complimentary: #fcc5c5;
+    --color-primary-complimentary: #fcc5c5;    /*252 197 197*/
     --color-off-white-hover: #E5E7EB;
 
     --color-alert-success: #84f1c9;
@@ -40,6 +42,9 @@ body {
 .red-text{
     color: var(--color-barcelona-red)
 }
+hr{
+    margin-top: 2rem;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -55,29 +60,6 @@ body {
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
-.primary-btn{
-    background-color:var(--color-barcelona-red);
-    color: var(--color-white);
-    border-radius: 0.25rem;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-/* .primary-btn:hover{
-    background-color: var(--color-barcelona-red);
-} */
-.secondary-btn{
-    color: var(--color-barcelona-blue);
-    border-radius: 0.25rem;
-    border: 2px solid var(--color-barcelona-blue);
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: all 0.25s ease-in-out;
-}
-.secondary-btn:hover{
-    background-color: var(--color-light-blue);
-}
 .image-container{
     margin-left: auto;
     flex: 1;
@@ -91,8 +73,7 @@ body {
     margin-top: 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    height: 100vh;
+    height: fit-content;
     grid-gap: 0.5rem;
     grid-template-areas: 
         "sidebar main main main main"
@@ -102,6 +83,9 @@ body {
     grid-area: sidebar;
     box-shadow: 0 0 1px 0px rgb(0 0 0 / 25%);
     padding-top: 0;
+    position: sticky;
+    top: 0rem;
+    height: fit-content;
 }
 .sidebar-header{
     margin: 2rem 2rem 0rem 3rem;
@@ -130,7 +114,7 @@ body {
     padding: 0rem 2rem 2rem 2rem;
 }
 
-.component-container{}
+/* .component-container{} */
 
 .component-header{
     font-size: 2rem;
@@ -145,3 +129,4 @@ body {
     font-weight: 600;
     color: var(--color-darker-gray);
 }
+

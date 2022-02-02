@@ -34,9 +34,9 @@ buttonTemplate.innerHTML = `
 
                 <div class="avatar-container button-container">
 
-                    <button class="btn-text-primary">TEXT</button>
-                    <button class="btn-contained-primary">CONTAINED</button>
-                    <button class="btn-outlined-primary">OUTLINED</button>
+                    <button class="btn btn-text-primary">TEXT</button>
+                    <button class=" btn btn-contained-primary">CONTAINED</button>
+                    <button class=" btn btn-outlined-primary">OUTLINED</button>
                 </div>
 
 
@@ -50,14 +50,14 @@ buttonTemplate.innerHTML = `
 
                 <div class="bar-container">
                     <div class="button-container">
-                        <button class="btn-text-primary">TEXT</button>
-                        <button class="btn-contained-primary">CONTAINED</button>
-                        <button class="btn-outlined-primary">OUTLINED</button>
+                        <button class="btn btn-text-primary">TEXT</button>
+                        <button class="btn btn-contained-primary">CONTAINED</button>
+                        <button class="btn btn-outlined-primary">OUTLINED</button>
                     </div>
                     <div class="button-container">
-                        <button class="btn-text-secondary">TEXT</button>
-                        <button class="btn-contained-secondary">CONTAINED</button>
-                        <button class="btn-outlined-secondary">OUTLINED</button>
+                        <button class="btn btn-text-secondary">TEXT</button>
+                        <button class="btn btn-contained-secondary">CONTAINED</button>
+                        <button class="btn btn-outlined-secondary">OUTLINED</button>
                     </div>
                 </div>
 
@@ -74,10 +74,10 @@ buttonTemplate.innerHTML = `
                 <div class="avatar-container button-container">
 
                     <div class="button-container">
-                        <a href="#Button" class="btn-link">TEXT</a>
-                        <a href="#Button" class="btn-text-secondary">TEXT</a>
-                        <a href="#Button" class="btn-link-primary">CONTAINED</a>
-                        <a href="#Button" class="btn-link-secondary">OUTLINED</a>
+                        <a href="#Button" class="btn btn-link">TEXT</a>
+                        <a href="#Button" class="btn btn-text-secondary">TEXT</a>
+                        <a href="#Button" class="btn btn-link-primary">CONTAINED</a>
+                        <a href="#Button" class="btn btn-link-secondary">OUTLINED</a>
                     </div>
                 </div>
 
@@ -95,16 +95,16 @@ buttonTemplate.innerHTML = `
                 <div class="avatar-container button-container">
 
                     <div class="button-container">
-                        <button class="btn-wishlist"><span class="material-icons">
+                        <button class="btn btn-wishlist"><span class="material-icons">
                                 favorite_border
                             </span></button>
-                        <button class="btn-icon-primary"><span><i class="fas fa-plus"></i> Add</span></button>
-                        <button class="btn-icon-secondary"><span><i class="fas fa-minus"></i> Remove</span></button>
-                        <button class="btn-contained-primary btn-add-to-cart"><span><i class="fas fa-shopping-cart"></i>
+                        <button class="btn btn-icon-primary"><span><i class="fas fa-plus"></i> Add</span></button>
+                        <button class="btn btn-icon-secondary"><span><i class="fas fa-minus"></i> Remove</span></button>
+                        <button class=" btn btn-contained-primary btn-add-to-cart"><span><i class="fas fa-shopping-cart"></i>
                                 Add
                                 to
                                 Cart</span></button>
-                        <button class="btn-contained-secondary"><span><i class="fas fa-camera"></i>
+                        <button class="btn btn-contained-secondary"><span><i class="fas fa-camera"></i>
                                 Upload</span></button>
                     </div>
                 </div>
@@ -122,9 +122,9 @@ buttonTemplate.innerHTML = `
 
                     <div class="button-container">
 
-                        <button class="btn-text-disabled">TEXT</button>
-                        <button class="btn-contained-disabled">CONTAINED</button>
-                        <button class="btn-outlined-disabled">OUTLINED</button>
+                        <button class="btn btn-text-disabled">TEXT</button>
+                        <button class="btn btn-contained-disabled">CONTAINED</button>
+                        <button class="btn btn-outlined-disabled">OUTLINED</button>
                     </div>
                 </div>
 
@@ -173,7 +173,7 @@ buttonTemplate.innerHTML = `
                 <p>Use class name = <span class="nav-U-I blue-text">btn-floating-action </span>
                     for button and add class name = <span class="nav-U-I red-text">bg-red, bg-blue, bg-yellow </span>for
                     different colors.
-                    Add class name = <span class="nav-U-I red-text">extended </span>for extended FAB.</p>
+                    Add class name = <span class="nav-U-I red-text">extended-fab </span>for extended FAB.</p>
 
                 <div class="avatar-container button-container">
 

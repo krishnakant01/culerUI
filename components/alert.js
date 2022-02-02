@@ -2,7 +2,7 @@ const alertTemplate = document.createElement('template');
 
 alertTemplate.innerHTML = `
 
-<p class="component-header">Alerts</p>
+<p class="component-header">Alert</p>
                 <p class="header-description">Alerts are used to attract user's attention for important information
                     without interrupting the user's flow.</p>
 
@@ -60,7 +60,7 @@ alertTemplate.innerHTML = `
 
 `;
 
-document.querySelector("#Alerts").appendChild(alertTemplate.content);
+document.querySelector("#Alert").appendChild(alertTemplate.content);
 
 const btnClose = document.querySelector(".close-btn");
 const successAlertBar = document.querySelector("#alert-success");

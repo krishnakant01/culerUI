@@ -4,6 +4,7 @@
 @import 'components/avatar.css';
 @import 'components/badge.css';
 @import 'components/button.css';
+@import 'components/cards.css';
 
 :root {
     --color-white: #FFFFFF;
@@ -28,6 +29,9 @@
     --color-alert-warning: #ffe7c5;
     --color-alert-warning-text: #ff9204;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -48,7 +52,6 @@ hr{
 .container{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     margin:2rem;
 }
 .text-container{
@@ -113,9 +116,6 @@ hr{
     box-shadow: 0 0 1px 0px rgb(0 0 0 / 25%);
     padding: 0rem 2rem 2rem 2rem;
 }
-
-/* .component-container{} */
-
 .component-header{
     font-size: 2rem;
     font-weight: 600;
@@ -129,4 +129,3 @@ hr{
     font-weight: 600;
     color: var(--color-darker-gray);
 }
-

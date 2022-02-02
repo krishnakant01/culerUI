@@ -1,0 +1,272 @@
+/*---------------------------------------Basic Card------------------------------------------------*/
+
+.card-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    font-size: 1rem;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+}
+
+.basic-card{
+   
+    width: 15rem;
+    border-radius: 0.25rem;
+}
+.card-content{
+    padding: 0.5rem 1rem;
+}
+.card-header{
+    font-size: 1.125em;
+    font-weight: 600;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
+}
+.card-title, .card-sub-header{
+    color: var(--color-darker-gray);
+    padding: 0rem;
+    margin: 0.75rem 0rem;
+}
+.card-description{
+    margin: 0.5rem 0rem;
+    font-size: 0.9em;
+    color: var(--color-dark-gray);
+}
+.card-btn{
+    margin: 0rem;
+    font-size: 0.8em;
+}
+
+/*---------------------------------------Image Card------------------------------------------------*/
+
+.image-card{
+    width: 20rem;
+    border-radius: 0.25rem;
+}
+.card-image-container{
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    height: 12rem;
+    border-radius: inherit;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.card-button-container{
+    margin: 1rem 0rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/*---------------------------------------Overlay Card------------------------------------------------*/
+
+.overlay-card{
+    margin-top: 1rem;
+    width: 15rem;
+    height: 18rem;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    background-color:var(--color-light-blue);
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    position: relative; 
+}
+
+.overlay-card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.overlay-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+.overlay-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.overlay-text:hover{
+    opacity: 1;
+}
+.overlay-text > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.overlay-text:hover > * {
+    transform: translateY(0);
+}
+.overlay-img-description{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/*---------------------------------------Product Card------------------------------------------------*/
+
+.product-card{
+    width: 13rem;
+    border-radius: 0.25rem;
+    background-color:var(--color-light-blue);
+    text-align: center;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0rem;
+    position: relative; 
+}
+.product-card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.product-image{
+    width: 100%;
+}
+.product-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.product-name{
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0.25rem 0rem;
+}
+.product-price{
+    font-weight: 600;
+    margin: 0rem;
+    padding: 0.75rem 0rem;
+}
+.product-card .overlay-text{
+    opacity: 1;
+    transition: none;
+}
+
+/*---------------------------------------Horizontal Product Card------------------------------------------------*/
+
+.my-cart-product-card{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.my-cart-product-card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.my-cart-product-image-div{
+    width: 12rem;
+}
+.my-cart-product-image-div img{
+    width: 100%;
+    object-fit: cover;
+}
+.my-cart-product-description-div{
+    width: 10rem;
+}
+#size{
+    width: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem;
+}
+.horizontal-card-btn{
+    padding: 0.25rem 0.5rem;
+    margin: 0.5rem 0rem;
+    background-color: cornsilk;
+    border: rgb(250, 164, 164) 1px solid ;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.product-card-btns-div{
+    text-align: center;
+}
+#delete-btn{
+    cursor: pointer;
+    border: none;
+    background-color: var(--color-white);
+    margin: 0.75rem 0rem;
+}
+#delete-btn span{
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+.wishlit-btn{
+    margin: 0 1rem 0 0;
+    font-size: 0.8rem;
+}
+
+/*---------------------------------------Music Card------------------------------------------------*/
+
+.music-card{
+    display: flex;
+    width: 22rem;
+    height: 8rem;
+    gap: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+}
+.music-card:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+}
+.music-card-img-container{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.25rem;
+}
+.music-card-img-container img{
+    width: 100%;
+    object-fit:fill;
+    border-radius: 0.25rem;
+}
+.card-text{
+    color: var(--color-darker-gray);
+    font-size: 1rem;
+}
+.music-card-title{
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: 1.125rem;
+}
+.music-card-descp{
+    margin: 0.5rem 0rem 1rem 0rem;
+    font-size: 1rem;
+}
+.btn-container{
+    display: flex;
+    gap: 2rem;
+    color: var(--color-darker-gray);  
+}
+.btn-container span{
+    cursor: pointer;
+}
+
+/*---------------------------------------Gradient Card------------------------------------------------*/
+
+.light-gradient-card{
+    background-image: linear-gradient(to right, var(--color-primary-complimentary), var(--color-medium-blue));
+   
+}
+
+.dark-gradient-card{
+     background-image: linear-gradient(to right, var(--color-barcelona-blue), var(--color-barcelona-red));
+     color: var(--color-white);
+}

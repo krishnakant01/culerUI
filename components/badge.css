@@ -36,7 +36,7 @@
     min-width: 0.5em;
 }
 .badge-container .btn ~ .status-badge {
-    right: -1em;
+    right: 0.5em;
     top: -1em;
     height: 1em;
     min-width: 1em;

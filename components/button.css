@@ -23,7 +23,7 @@
     color: var(--color-barcelona-red);
     font-size: 1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-text-primary:hover{
     background-color: var(--color-primary-complimentary);
@@ -33,7 +33,7 @@
    
     background-color: var(--color-barcelona-red);
     color: var(--color-white);
-    transition: all 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .btn-contained-primary:hover{
     box-shadow: 0 0 5px 2px rgba(179, 42, 81, 0.55);
@@ -43,7 +43,7 @@
     border: 1px solid var(--color-barcelona-red);
     background-color: var(--color-white);
     color: var(--color-barcelona-red);
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-outlined-primary:hover{
     background-color: var(--color-primary-complimentary);
@@ -56,7 +56,7 @@
     color: var(--color-barcelona-blue);
     font-size: 1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-text-secondary:hover{
     background-color: var(--color-medium-blue);
@@ -65,7 +65,7 @@
 .btn-contained-secondary{
     background-color: var(--color-barcelona-blue);
     color: var(--color-white);
-    transition: all 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .btn-contained-secondary:hover{
     box-shadow: 0 0 5px 2px rgba(44, 42, 179, 0.55);
@@ -75,7 +75,7 @@
     border: 1px solid var(--color-barcelona-blue);
     background-color: var(--color-white);
     color: var(--color-barcelona-blue);
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-outlined-secondary:hover{
     background-color: var(--color-medium-blue);
@@ -89,8 +89,8 @@
     color: var(--color-barcelona-blue);
     font-size: 1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
-    text-decoration: solid;
+    transition: 0.3s ease-in-out;
+    text-decoration: dashed;
     text-decoration-color: var(--color-barcelona-blue);
 }
 .btn-link:hover{
@@ -101,7 +101,7 @@
     background-color:var(--color-barcelona-red);
     color: var(--color-white);
     font-size: 1rem;
-    transition: all 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .btn-link-primary:hover{
     box-shadow: 0 0 5px 2px rgba(179, 42, 81, 0.55);
@@ -111,7 +111,7 @@
     color: var(--color-barcelona-blue);
     border: 1px solid var(--color-barcelona-blue);
     font-size: 1rem;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-link-secondary:hover{
     background-color: var(--color-medium-blue);
@@ -128,7 +128,7 @@
     color: var(--color-barcelona-blue);
     font-size: 1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-icon-primary:hover{
     background-color: var(--color-medium-blue);
@@ -139,7 +139,7 @@
     color: var(--color-dark-gray);
     font-size: 1rem;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-icon-secondary:hover{
     background-color: var(--color-light-gray);
@@ -150,7 +150,7 @@
     background-color: transparent;
     color: var(--color-dark-gray);
     padding: 0.875rem 1rem;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .btn-wishlist:hover{
     background-color: var(--color-primary-complimentary);
@@ -234,7 +234,7 @@
     color: var(--color-white);
     padding: 1rem 1.125rem;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%);
-    transition: all 0.4s ease;
+    transition: 0.4s ease;
 }
 .btn-floating-action:hover{
     transform: translateY(-4px);
@@ -247,7 +247,7 @@
     display: flex;
     gap: 0.25rem;
     align-items: center;
-    transition: all 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .extended-fab:hover{
     transform: translateY(-4px);

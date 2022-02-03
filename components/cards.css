@@ -158,6 +158,11 @@
     opacity: 1;
     transition: none;
 }
+.product-card .text-badge{
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+}
 
 /*---------------------------------------Horizontal Product Card------------------------------------------------*/
 

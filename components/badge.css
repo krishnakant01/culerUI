@@ -57,6 +57,7 @@
 }
 .text-badge-container{
     display: block;
+    position: relative;
 }
 .text-badge{
     color: var(--color-white);

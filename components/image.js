@@ -2,7 +2,7 @@ const imageTemplate = document.createElement('template');
 
 imageTemplate.innerHTML = `
 
-<p class="component-header">Images</p>
+<p class="component-header">Image</p>
 
 <p class="header-description">Images can be responsive to fit the parent's width, and also can be
     customised to be round shaped.</p>

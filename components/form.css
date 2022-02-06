@@ -22,6 +22,7 @@
 }
 .form-field:disabled{
     background-color: var(--color-light-gray);
+    cursor:not-allowed;
 }
 .form-field-plain-text:read-only{
     border: none;

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
-@import 'components/navigation-bar.css';
+
 @import 'components/alert.css';
 @import 'components/avatar.css';
 @import 'components/badge.css';
@@ -8,6 +8,7 @@
 @import 'components/form.css';
 @import 'components/image.css';
 @import 'components/list.css';
+@import 'components/navigation.css';
 
 :root {
     --color-white: #FFFFFF;
@@ -29,6 +30,7 @@
     /*252 197 197*/
     --color-off-white-hover: #E5E7EB;
     --color-cornsilk: cornsilk;
+    --color-wheat: wheat;
     --color-alert-success: #84f1c9;
     --color-alert-succes-text: #1b7052;
     --color-alert-warning: #ffe7c5;

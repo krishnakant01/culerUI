@@ -12,7 +12,7 @@ navigationTemplate.innerHTML = `
 <p>1. Navigation Bar for Documentation websites.</p>
 <p>2. Navigation Bar for E-commerce.</p>
 
-<p class="sub-header">Example of Navigation Bar for Documentation websites.</p>
+<p class="sub-header">Example of Navigation Bar for Documentation websites</p>
 
 <p>Structure your nav bar and use the classes according to the code snippet below.</p>
 
@@ -184,7 +184,7 @@ navigationTemplate.innerHTML = `
     </header>
 </div>
 
-<p class="sub-header">Example of Navigation Bar for E-commerce websites.</p>
+<p class="sub-header">Example of Navigation Bar for E-commerce websites</p>
 
 <p>Structure your nav bar and use the classes according to the code snippet below.</p>
 

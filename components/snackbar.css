@@ -1,0 +1,42 @@
+.snackbar {
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    position: relative;
+}
+.snackbar-success {
+    background-color: var(--color-alert-success);
+    color: var(--color-alert-succes-text);
+}
+.snackbar-error {
+    background-color: var(--color-primary-complimentary);
+    color: var(--color-barcelona-red);
+}
+.snackbar-simple {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+}
+.snackbar-demo{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    display: none;
+}
+.snackbar-btn-close {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+    color: var(--color-dark-gray);
+}
+.snackbar-btn-close:hover {
+    color: var(--color-black);
+}
+
+.btn-simple-close {
+    color: var(--color-white);
+}
+.btn-simple-close:hover{
+    color: var(--color-dark-gray);
+}

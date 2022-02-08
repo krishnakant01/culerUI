@@ -99,7 +99,7 @@
 .navigation-container .link:hover::after{
     width: 100%;
 }
-.material-icons{
+.navigation-container .material-icons{
     color: var(--color-white);    
 }
 .cart-wishlist-account-container a{

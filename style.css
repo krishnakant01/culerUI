@@ -9,6 +9,9 @@
 @import 'components/image.css';
 @import 'components/list.css';
 @import 'components/navigation.css';
+@import 'components/modal.css';
+@import 'components/snackbar.css';
+
 
 :root {
     --color-white: #FFFFFF;
@@ -40,7 +43,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -48,46 +50,37 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
 .blue-text {
     color: var(--color-barcelona-blue);
 }
-
 .red-text {
     color: var(--color-barcelona-red)
 }
-
 hr {
     margin-top: 2rem;
 }
-
 .container {
     display: flex;
     flex-wrap: wrap;
     margin: 2rem;
 }
-
 .text-container {
     font-size: 2rem;
     color: var(--color-darker-gray);
     flex: 2;
 }
-
 .text-container p {
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
-
 .image-container {
     margin-left: auto;
     flex: 1;
 }
-
 .home-img {
     margin-left: 2rem;
     width: 425px;
 }
-
 .outest-grid-container {
     margin-top: 0.5rem;
     display: grid;
@@ -95,10 +88,8 @@ hr {
     height: fit-content;
     grid-gap: 0.5rem;
     grid-template-areas:
-        "sidebar main main main main"
-    ;
+        "sidebar main main main main";
 }
-
 .sidebar-container {
     grid-area: sidebar;
     box-shadow: 0 0 1px 0px rgb(0 0 0 / 25%);
@@ -107,48 +98,38 @@ hr {
     top: 0rem;
     height: fit-content;
 }
-
 .sidebar-header {
     margin: 2rem 2rem 0rem 3rem;
-
 }
-
 .sidebar-list {
     list-style: none;
     font-size: 1.125rem;
     padding: 0;
 
 }
-
 .sidebar-link-item {
     padding: 0.75rem 3rem;
 }
-
 .sidebar-link-item:hover {
     background-color: var(--color-primary-complimentary);
 }
-
 .sidebar-list a {
     text-decoration: none;
     color: var(--color-darker-gray);
 }
-
 .main-container {
     grid-area: main;
     box-shadow: 0 0 1px 0px rgb(0 0 0 / 25%);
     padding: 0rem 2rem 2rem 2rem;
 }
-
 .component-header {
     font-size: 2rem;
     font-weight: 600;
     color: var(--color-darker-gray);
 }
-
 .header-description {
     font-size: 1.25rem;
 }
-
 .sub-header {
     font-size: 1.5rem;
     font-weight: 600;

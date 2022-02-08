@@ -18,6 +18,8 @@ snackbarTemplate.innerHTML = `
                         class name = <span class="nav-U-I red-text">snackbar-success, snackbar-error, snackbar-simple
                         </span>for different types of snackbar.
                     </p>
+                    <p>Use id = <span class="nav-U-I blue-text">btn-success-close, btn-error-close, btn-simple-close</span>
+                           to make it functional.</p>
 
                     <div class="bar-container">
 
@@ -34,7 +36,7 @@ snackbarTemplate.innerHTML = `
                         <div class="snackbar snackbar-simple">
                             Saving to server...
                             <button class="btn btn-text-secondary card-btn snackbar-btn">UNDO</button>
-                            <span class="material-icons snackbar-btn-close" id="btn-simple-close">close</span>
+                            <span class="material-icons snackbar-btn-close btn-simple-close" id="btn-simple-close">close</span>
                         </div>
 
                     </div>
@@ -61,18 +63,18 @@ const btnSnackbarCTA = document.querySelector("#snackbar-CTA");
 const snackbar = document.querySelector(".snackbar-demo");
 const btnSnackbarClose = document.querySelector("#btn-snackbar-close");
 
-btnSnackbarCTA.addEventListener("click", ()=>{
+btnSnackbarCTA.addEventListener("click", () => {
 
     snackbar.style.display = "block"
 
-    timerIdOfSnackbar = setTimeout(()=>{
+    timerIdOfSnackbar = setTimeout(() => {
 
         snackbar.style.display = "none";
     }, 3000);
 
 });
 
-btnSnackbarClose.addEventListener("click", ()=>{
+btnSnackbarClose.addEventListener("click", () => {
     clearTimeout(timerIdOfSnackbar);
     snackbar.style.display = "none";
 });

@@ -8,7 +8,7 @@ alertTemplate.innerHTML = `
 
                 
 
-                <p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+                <p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
                     we have 4 types of Alert Bars available:
                 </p>
                 <p>1. Alert Bar with a text link.</p>
@@ -18,7 +18,7 @@ alertTemplate.innerHTML = `
 
                 <p class="sub-header">Example of Alert Bar without close button</p>
 
-                <p>Use <span class="nav-U-I blue-text">alert-primary, alert-success, alert-error, alert-warning</span>
+                <p>Use <span class="bold-font blue-text">alert-primary, alert-success, alert-error, alert-warning</span>
                     as class name in your html.</p>
 
                 <div class="bar-container">
@@ -46,8 +46,8 @@ alertTemplate.innerHTML = `
                 <p class="sub-header">Example of Alert Bar without close button</p>
                 <p>Alert can have cross icon to close the alert. Check out html and vanilla JS code below.</p>
 
-                <p>Use class name as <span class="nav-U-I blue-text">alert-success close</span>
-                 and  id = <span class="nav-U-I red-text">alert-success</span>.</p>
+                <p>Use class name as <span class="bold-font blue-text">alert-success close</span>
+                 and  id = <span class="bold-font red-text">alert-success</span>.</p>
 
                 <div class="bar-container">
                     <div class="alert-success close" id="alert-success">

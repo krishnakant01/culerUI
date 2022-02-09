@@ -7,7 +7,7 @@ navTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>

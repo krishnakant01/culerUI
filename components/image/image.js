@@ -9,7 +9,7 @@ imageTemplate.innerHTML = `
 
 <p class="sub-header">Example of Responsive Image</p>
 
-<p class="">You can add class <span class="nav-U-I red-text">img-responsive</span> to make your image
+<p class="">You can add class <span class="bold-font red-text">img-responsive</span> to make your image
     fit the width of container.
     It's height will get adjusted by keeping the aspect ratio same.
     If you want to change the aspect ratio, you will have to crop the image.</p>
@@ -20,7 +20,7 @@ imageTemplate.innerHTML = `
 
 <p class="sub-header">Example of Round Image</p>
 
-<p class="">You can add class <span class="nav-U-I red-text">img-round</span> to make your image round shaped. 
+<p class="">You can add class <span class="bold-font red-text">img-round</span> to make your image round shaped. 
     </p>
 
 <div class="bar-container">

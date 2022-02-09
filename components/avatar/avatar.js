@@ -6,7 +6,7 @@ avatarTemplate.innerHTML = `
 <p class="header-description">Avatars are user profile pictures, usually found in circular shapes.
     Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to give
     them a recognisable visual identity.</p>
-<p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+<p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
     we have 2 types of Avatar available:
 </p>
 <p>1. Image Avatar.</p>
@@ -19,8 +19,8 @@ avatarTemplate.innerHTML = `
 <p class="sub-header">Example of Image Avatar</p>
 
 <p>Image Avatars are most commonly used for profile pictures.</p>
-<p>Use class name = <span class="nav-U-I blue-text">avatar</span>
-    for avatar and class name = <span class="nav-U-I red-text">lg-size, m-size, s-size </span>for sizes.</p>
+<p>Use class name = <span class="bold-font blue-text">avatar</span>
+    for avatar and class name = <span class="bold-font red-text">lg-size, m-size, s-size </span>for sizes.</p>
 
 <div class="avatar-container">
 
@@ -40,8 +40,8 @@ avatarTemplate.innerHTML = `
 <p class="sub-header">Example of Text Avatar</p>
 
 <p>Text Avatar is another commonly used avatar which normally contains the initials of the person.</p>
-<p>Use class name = <span class="nav-U-I blue-text">avatar</span>
-    for avatar and class name = <span class="nav-U-I red-text">lg-size, m-size, s-size </span>for sizes.</p>
+<p>Use class name = <span class="bold-font blue-text">avatar</span>
+    for avatar and class name = <span class="bold-font red-text">lg-size, m-size, s-size </span>for sizes.</p>
 
 <div class="avatar-container">
 

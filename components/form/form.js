@@ -7,17 +7,17 @@ formTemplate.innerHTML = `
                 <p class="header-description">There are form fields listed below and form validation is
                     also styled.</p>
 
-                <p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+                <p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
                     we have 4 types of Alert Bars available:
                 </p>
 
                 <p class="sub-header">Example of Active form fields</p>
 
-                <p>Add <span class="nav-U-I blue-text">form-label</span> class to labels and
-                    <span class="nav-U-I red-text">form-field</span> for input element,
-                    <span class="nav-U-I blue-text">form-field, form-textarea</span> for textarea element(mulitple lines
+                <p>Add <span class="bold-font blue-text">form-label</span> class to labels and
+                    <span class="bold-font red-text">form-field</span> for input element,
+                    <span class="bold-font blue-text">form-field, form-textarea</span> for textarea element(mulitple lines
                     input).</p>
-                <p>Add <span class="nav-U-I red-text">form-label-required-field</span> class to labels if the field
+                <p>Add <span class="bold-font red-text">form-label-required-field</span> class to labels if the field
                     is required, it will show an astrick on the field.</p>
 
                 <div class="bar-container">
@@ -32,9 +32,9 @@ formTemplate.innerHTML = `
 
 
             <p class="sub-header">Example of Disabled/Read only form fields</p>
-            <p>Add <span class="nav-U-I blue-text">disabled</span> attribute to your form element to make them
+            <p>Add <span class="bold-font blue-text">disabled</span> attribute to your form element to make them
                 disable. No need to add any extra class.</p>
-            <p> Add <span class="nav-U-I red-text">readonly</span> attribute to your form element to make them
+            <p> Add <span class="bold-font red-text">readonly</span> attribute to your form element to make them
                 read only. No need to add any extra class.</p>
 
             <div class="bar-container">
@@ -49,8 +49,8 @@ formTemplate.innerHTML = `
             </div>
 
             <p class="sub-header">Example of Read only plain text form field</p>
-            <p>Add <span class="nav-U-I blue-text">read-only</span> attribute to your form element to make them
-                read-only. Add <span class="nav-U-I red-text">form-field-plain-text</span> class to form field
+            <p>Add <span class="bold-font blue-text">read-only</span> attribute to your form element to make them
+                read-only. Add <span class="bold-font red-text">form-field-plain-text</span> class to form field
                 element.</p>
 
             <div class="bar-container">

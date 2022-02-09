@@ -34,8 +34,8 @@ listTemplate.innerHTML = `
 
 <p>Add class according to bullet style. Copy html code below and add your desired list items.<br>
 </p>
-<p> To reverse the order of ordered list, add <span class="nav-U-I blue-text">reversed</span> attribute
-    to <span class="nav-U-I red-text">ol</span> element</p>
+<p> To reverse the order of ordered list, add <span class="bold-font blue-text">reversed</span> attribute
+    to <span class="bold-font red-text">ol</span> element</p>
 
 <div class="avatar-container">
 
@@ -76,9 +76,9 @@ listTemplate.innerHTML = `
 <p class="sub-header">Example of Inline List Items</p>
 
 <p>If you want list items in same line instead of stacked, you can add <span
-        class="nav-U-I blue-text">inline-list</span> class to make it inline. </p>
+        class="bold-font blue-text">inline-list</span> class to make it inline. </p>
 <p> And you can also add
-    <span class="nav-U-I red-text">list-style-none</span> class to remove bullets.
+    <span class="bold-font red-text">list-style-none</span> class to remove bullets.
 </p>
 
 <div class="avatar-container">
@@ -94,7 +94,7 @@ listTemplate.innerHTML = `
 <p class="sub-header">Example of Notification Stacked List</p>
 
 <p>This is stacked list without bullets. We can add desired component inside
-    <span class="nav-U-I red-text">"li"</span> element. Check below code for cards in stacked list.</p>
+    <span class="bold-font red-text">"li"</span> element. Check below code for cards in stacked list.</p>
 
 <div class="avatar-container">
 

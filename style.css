@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
 
-@import 'components/alert.css';
-@import 'components/avatar.css';
-@import 'components/badge.css';
-@import 'components/button.css';
-@import 'components/cards.css';
-@import 'components/form.css';
-@import 'components/image.css';
-@import 'components/list.css';
-@import 'components/navigation.css';
-@import 'components/modal.css';
-@import 'components/grid.css';
-@import 'components/slider.css';
-@import 'components/snackbar.css';
-@import 'components/typography.css';
+@import 'docSite-components/docsite-sidebar.css';
+@import 'components/alert/alert.css';
+@import 'components/avatar/avatar.css';
+@import 'components/badge/badge.css';
+@import 'components/button/button.css';
+@import 'components/cards/cards.css';
+@import 'components/form/form.css';
+@import 'components/image/image.css';
+@import 'components/list/list.css';
+@import 'components/navigation/navigation.css';
+@import 'components/modal/modal.css';
+@import 'components/simplified-grid/grid.css';
+@import 'components/slider/slider.css';
+@import 'components/snackbar/snackbar.css';
+@import 'components/typography/typography.css';
 
 
 :root {
@@ -55,15 +56,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
-.blue-text {
-    color: var(--color-barcelona-blue);
-}
-
-.red-text {
-    color: var(--color-barcelona-red)
-}
-
 hr {
     margin-top: 2rem;
 }
@@ -74,17 +66,17 @@ hr {
     margin: 2rem;
 }
 
-.text-container {
+.home-text-container {
     font-size: 2rem;
     color: var(--color-darker-gray);
     flex: 2;
 }
 
-.text-container p {
+.home-text-container p {
     font-size: 1.5rem;
 }
 
-.image-container {
+.home-image-container {
     margin-left: auto;
     flex: 1;
 }
@@ -113,30 +105,6 @@ hr {
     height: fit-content;
 }
 
-.sidebar-header {
-    margin: 2rem 2rem 0rem 3rem;
-}
-
-.sidebar-list {
-    list-style: none;
-    font-size: 1.125rem;
-    padding: 0;
-
-}
-
-.sidebar-link-item {
-    padding: 0.75rem 3rem;
-}
-
-.sidebar-link-item:hover {
-    background-color: var(--color-primary-complimentary);
-}
-
-.sidebar-list a {
-    text-decoration: none;
-    color: var(--color-darker-gray);
-}
-
 .main-container {
     grid-area: main;
     box-shadow: 0 0 1px 0px rgb(0 0 0 / 25%);
@@ -158,4 +126,3 @@ hr {
     font-weight: 600;
     color: var(--color-darker-gray);
 }
-

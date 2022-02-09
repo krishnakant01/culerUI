@@ -8,8 +8,8 @@ sliderTemplate.innerHTML =`
 
 <p class="sub-header">Example of Default Slider</p>
 
-<p>Use class name = <span class="nav-U-I blue-text">default-slider </span>for a default slider.</p>
-<p>Use class name = id = <span class="nav-U-I red-text">default-slider
+<p>Use class name = <span class="bold-font blue-text">default-slider </span>for a default slider.</p>
+<p>Use class name = id = <span class="bold-font red-text">default-slider
     </span>for default-slider with icon. Click on icon to mute/unmute.
 </p>
 
@@ -29,8 +29,8 @@ sliderTemplate.innerHTML =`
 
 <p class="sub-header">Example of Custom Slider</p>
 
-<p>Use class name = id = <span class="nav-U-I blue-text">custom-slider </span> for input element
-    and class name = <span class="nav-U-I red-text">tooltip-value</span> for the span element to get
+<p>Use class name = id = <span class="bold-font blue-text">custom-slider </span> for input element
+    and class name = <span class="bold-font red-text">tooltip-value</span> for the span element to get
     the input value everytime you slide it.
 
     <p>Include a style tag for the change in size of the thumb.</p>

@@ -6,7 +6,7 @@ snackbarTemplate.innerHTML = `
                 <p class="header-description">Snackbars provide brief notifications. The component is also known as a
                     toast.</p>
 
-                <p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+                <p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
                     we have 3 types of Snackbars: </p>
                     <p>1. Success Snackbar</p>
                     <p>2. Error Snackbar</p>
@@ -14,11 +14,11 @@ snackbarTemplate.innerHTML = `
 
                     <p class="sub-header">Example of Simple Snackbar</p>
 
-                    <p>Use class name = <span class="nav-U-I blue-text">snackbar </span>and add
-                        class name = <span class="nav-U-I red-text">snackbar-success, snackbar-error, snackbar-simple
+                    <p>Use class name = <span class="bold-font blue-text">snackbar </span>and add
+                        class name = <span class="bold-font red-text">snackbar-success, snackbar-error, snackbar-simple
                         </span>for different types of snackbar.
                     </p>
-                    <p>Use id = <span class="nav-U-I blue-text">btn-success-close, btn-error-close, btn-simple-close</span>
+                    <p>Use id = <span class="bold-font blue-text">btn-success-close, btn-error-close, btn-simple-close</span>
                            to make it functional.</p>
 
                     <div class="bar-container">

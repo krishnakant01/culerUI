@@ -9,7 +9,7 @@ cardsTemplate.innerHTML = `
     Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
 </p>
 
-<p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+<p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
     we have various types of Cards available:
 </p>
 
@@ -18,8 +18,8 @@ cardsTemplate.innerHTML = `
 <p>Although cards can support multiple actions, UI controls,
     and an overflow menu, use restraint and remember that cards are entry points to more complex and
     detailed information.</p>
-<p>Use this to display simple information. Use class name = <span class="nav-U-I blue-text">card</span>
-    and add class name = <span class="nav-U-I red-text">basic-card</span>
+<p>Use this to display simple information. Use class name = <span class="bold-font blue-text">card</span>
+    and add class name = <span class="bold-font red-text">basic-card</span>
     for a basic card and structure your card as shown in the code snippet.
 </p>
 
@@ -41,8 +41,8 @@ cardsTemplate.innerHTML = `
 <p class="sub-header">Example of Image in Basic Card</p>
 
 <p>A basic card can also contain an image to convey the necessary information. It can be used in video streaming platforms or to dislay subscription plans on any website.</p>
-<p>Use class name = <span class="nav-U-I blue-text">card</span>
-    and add class name = <span class="nav-U-I red-text">image-card </span>for a basic card.
+<p>Use class name = <span class="bold-font blue-text">card</span>
+    and add class name = <span class="bold-font red-text">image-card </span>for a basic card.
 </p>
 
 <div class="avatar-container">
@@ -69,8 +69,8 @@ cardsTemplate.innerHTML = `
 <p class="sub-header">Example of Card with Text Overlay</p>
 
 <p>A card can have an overlayed text which will display on hover.</p>
-<p>Use class name = <span class="nav-U-I blue-text">overlay-card</span>
-    in parent div for an overlayed card and use class name = <span class="nav-U-I red-text">overlay-text
+<p>Use class name = <span class="bold-font blue-text">overlay-card</span>
+    in parent div for an overlayed card and use class name = <span class="bold-font red-text">overlay-text
     </span>in the element you want to overlay.
 
 </p>
@@ -131,14 +131,14 @@ cardsTemplate.innerHTML = `
 
 <p>A vertical product card is normally used in e-commerce websites to display product details in concise manner.</p>
 <p>A vertical card can have a text-badge or an overlayed text.</p>
-<p>Use class name = <span class="nav-U-I blue-text">card</span>
-    and add class name = <span class="nav-U-I red-text">product-card </span>for a vertical product card.
+<p>Use class name = <span class="bold-font blue-text">card</span>
+    and add class name = <span class="bold-font red-text">product-card </span>for a vertical product card.
 </p>
-<p>Use class name = <span class="nav-U-I blue-text">card product-card text-badge-container</span>
-    in the parent element and use class name = <span class="nav-U-I red-text">text-badge badge-primary </span>for a text-badge on the card.
+<p>Use class name = <span class="bold-font blue-text">card product-card text-badge-container</span>
+    in the parent element and use class name = <span class="bold-font red-text">text-badge badge-primary </span>for a text-badge on the card.
 </p>
-<p>Use class name = <span class="nav-U-I blue-text">overlay-text</span> for a div which is child of class = 
-    <span class="nav-U-I red-text">product-card </span>for an overlay on the card.
+<p>Use class name = <span class="bold-font blue-text">overlay-text</span> for a div which is child of class = 
+    <span class="bold-font red-text">product-card </span>for an overlay on the card.
 </p>
 
 <div class="avatar-container">
@@ -206,7 +206,7 @@ cardsTemplate.innerHTML = `
 <p class="sub-header">Example of Horizontal Product Cards</p>
 
 <p>A horizontal product card is normally used in my-cart section of an e-commerce websites.</p>
-<p>Use class name = <span class="nav-U-I blue-text">my-cart-product-card</span>
+<p>Use class name = <span class="bold-font blue-text">my-cart-product-card</span>
     and structure the card as shown in the code snippet according to your needs.
 </p>
 
@@ -275,7 +275,7 @@ cardsTemplate.innerHTML = `
 
 <p>Supplemental actions within the card are explicitly called out using icons, text, and UI controls,
     typically placed at the bottom of the card. It can be used on music streaming platforms like Spotify.</p>
-<p>Use class name = <span class="nav-U-I blue-text">music-card</span>
+<p>Use class name = <span class="bold-font blue-text">music-card</span>
     and structure the card as shown in the code snippet according to your needs.
 </p>
 
@@ -313,12 +313,12 @@ cardsTemplate.innerHTML = `
 
 <p>If your website has a funky look then you can also use these funky looking cards.</p>
 <p>We have two types of gradients available:</p>
-<p>Use class name = <span class="nav-U-I blue-text">light-gradient-card</span>
-    in parent element for gradient effect of light colors and add class name = <span class="nav-U-I red-text">card basic-card/image-card </span>according to your use case.
+<p>Use class name = <span class="bold-font blue-text">light-gradient-card</span>
+    in parent element for gradient effect of light colors and add class name = <span class="bold-font red-text">card basic-card/image-card </span>according to your use case.
 </p>
 
-<p>Use class name = <span class="nav-U-I blue-text">dark-gradient-card</span>
-    in parent element for gradient effect of dark colors and add class name = <span class="nav-U-I red-text">card basic-card/image-card </span>according to your use case.
+<p>Use class name = <span class="bold-font blue-text">dark-gradient-card</span>
+    in parent element for gradient effect of dark colors and add class name = <span class="bold-font red-text">card basic-card/image-card </span>according to your use case.
 </p>
 
 <div class="avatar-container">

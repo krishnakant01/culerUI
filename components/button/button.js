@@ -5,7 +5,7 @@ buttonTemplate.innerHTML = `
 <p class="component-header">Button</p>
                 <p class="header-description">Buttons allow users to take actions, and make choices, with a single tap.
                     They are also called Call To Action (CTA).</p>
-                <p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+                <p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
                     we have 3 types of Button available:
                 </p>
                 <p>1. Text Button.</p>
@@ -26,7 +26,7 @@ buttonTemplate.innerHTML = `
                     the
                     primary action in an app.</p>
 
-                <p>Use class name = <span class="nav-U-I red-text">btn-text-primary,
+                <p>Use class name = <span class="bold-font red-text">btn-text-primary,
                         btn-contained-primary, btn-outlined-primary
                     </span>
                     for primary colored buttons.
@@ -42,7 +42,7 @@ buttonTemplate.innerHTML = `
 
                 <p class="sub-header">Example of Primary and Secondary Button</p>
 
-                <p>Use class name = <span class="nav-U-I blue-text">btn-text-secondary,
+                <p>Use class name = <span class="bold-font blue-text">btn-text-secondary,
                         btn-contained-primary, btn-outlined-primary
                     </span>
                     for secondary buttons.
@@ -67,8 +67,8 @@ buttonTemplate.innerHTML = `
                     file).
                 </p>
 
-                <p>Use class name = <span class="nav-U-I blue-text">btn-link, btn-link-secondary, </span>
-                    <span class="nav-U-I red-text">btn-link-primary </span>for different types of link buttons.
+                <p>Use class name = <span class="bold-font blue-text">btn-link, btn-link-secondary, </span>
+                    <span class="bold-font red-text">btn-link-primary </span>for different types of link buttons.
                 </p>
 
                 <div class="avatar-container button-container">
@@ -87,9 +87,9 @@ buttonTemplate.innerHTML = `
                     Icons are also appropriate for toggle buttons that allow a single choice to be selected or
                     deselected,
                     such as adding or removing a star to an item.</p>
-                <p>Use class name = <span class="nav-U-I blue-text">btn-wishlist, btn-icon-primary, btn-icon-secondary,
+                <p>Use class name = <span class="bold-font blue-text">btn-wishlist, btn-icon-primary, btn-icon-secondary,
                     </span>
-                    <span class="nav-U-I red-text">btn-add-to-cart </span>for different types of icon buttons.
+                    <span class="bold-font red-text">btn-add-to-cart </span>for different types of icon buttons.
                 </p>
 
                 <div class="avatar-container button-container">
@@ -114,8 +114,8 @@ buttonTemplate.innerHTML = `
 
                 <p>Disabled buttons indicate non-allowance of an action.</p>
 
-                <p>Use class name = <span class="nav-U-I blue-text">btn-text-disabled, btn-contained-disabled, </span>
-                    <span class="nav-U-I red-text">btn-outlined-disabled </span>for different types of icon buttons.
+                <p>Use class name = <span class="bold-font blue-text">btn-text-disabled, btn-contained-disabled, </span>
+                    <span class="bold-font red-text">btn-outlined-disabled </span>for different types of icon buttons.
                 </p>
 
                 <div class="avatar-container button-container">
@@ -130,9 +130,9 @@ buttonTemplate.innerHTML = `
 
                 <p class="sub-header">Example of Toggle Switch Button</p>
                 <p>Switches toggle the state of a single setting on or off.</p>
-                <p>Use class name = <span class="nav-U-I blue-text">btn-toggle</span>
-                    in the label element and class name = <span class="nav-U-I blue-text">toggle-input</span> in input
-                    element and use class name = <span class="nav-U-I red-text">toggle-fill-area-red,
+                <p>Use class name = <span class="bold-font blue-text">btn-toggle</span>
+                    in the label element and class name = <span class="bold-font blue-text">toggle-input</span> in input
+                    element and use class name = <span class="bold-font red-text">toggle-fill-area-red,
                         toggle-fill-area-blue,
                         toggle-fill-area-yellow
                     </span>for different fill area colors.
@@ -170,10 +170,10 @@ buttonTemplate.innerHTML = `
                     FABs come in two types: regular, and extended.
                 </p>
 
-                <p>Use class name = <span class="nav-U-I blue-text">btn-floating-action </span>
-                    for button and add class name = <span class="nav-U-I red-text">bg-red, bg-blue, bg-yellow </span>for
+                <p>Use class name = <span class="bold-font blue-text">btn-floating-action </span>
+                    for button and add class name = <span class="bold-font red-text">bg-red, bg-blue, bg-yellow </span>for
                     different colors.
-                    Add class name = <span class="nav-U-I red-text">extended-fab </span>for extended FAB.</p>
+                    Add class name = <span class="bold-font red-text">extended-fab </span>for extended FAB.</p>
 
                 <div class="avatar-container button-container">
 

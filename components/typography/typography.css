@@ -5,7 +5,15 @@
     margin: 2rem 0rem;
     box-shadow: 0 0 10px 4px rgb(0 0 0 / 10%);
 }
-
+.blue-text {
+    color: var(--color-barcelona-blue);
+}
+.red-text {
+    color: var(--color-barcelona-red)
+}
+.bold-font {
+    font-weight: 600;
+}
 .text-strike-through {
     text-decoration: line-through;
 }

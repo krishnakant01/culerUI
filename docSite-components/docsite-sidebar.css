@@ -1,0 +1,22 @@
+.sidebar-header {
+    margin: 2rem 2rem 0rem 3rem;
+}
+
+.sidebar-list {
+    list-style: none;
+    font-size: 1.125rem;
+    padding: 0;
+}
+
+.sidebar-link-item {
+    padding: 0.75rem 3rem;
+}
+
+.sidebar-link-item:hover {
+    background-color: var(--color-primary-complimentary);
+}
+
+.sidebar-list a {
+    text-decoration: none;
+    color: var(--color-darker-gray);
+}

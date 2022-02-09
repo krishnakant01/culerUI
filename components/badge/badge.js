@@ -5,7 +5,7 @@ badgesTemplate.innerHTML = `
 <p class="component-header">Badges</p>
                 <p class="header-description">Badges are used to display notification counts or status information of
                     the user.</p>
-                <p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+                <p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
                     we have 2 types of Badges available:
                 </p>
                 <p>1. Status Badge.</p>
@@ -15,8 +15,8 @@ badgesTemplate.innerHTML = `
                 <p class="sub-header">Example of Status Badge</p>
 
                 <p>Status Badges are used to display status information of the user.</p>
-                <p>Use class name = <span class="nav-U-I blue-text">status-badge</span>
-                    for a status-badge and add class name = <span class="nav-U-I red-text">status-online, status-offline, status-away, status-text </span>for its type.
+                <p>Use class name = <span class="bold-font blue-text">status-badge</span>
+                    for a status-badge and add class name = <span class="bold-font red-text">status-online, status-offline, status-away, status-text </span>for its type.
                 </p>
 
                 <div class="avatar-container badge">
@@ -53,8 +53,8 @@ badgesTemplate.innerHTML = `
                 <p class="sub-header">Example of Text Badges</p>
 
                 <p>We have 2 types of text badges: badge with rounded edges and square edges. The font-size of badge is in em so that it will adjust to the parent's font-size automatically.</p>
-                <p>Use class name = <span class="nav-U-I blue-text">text-badge</span>
-                    for a text badge and add class name = <span class="nav-U-I red-text">badge-primary, badge-secondary, rounded-pill-badge </span>for its type.
+                <p>Use class name = <span class="bold-font blue-text">text-badge</span>
+                    for a text badge and add class name = <span class="bold-font red-text">badge-primary, badge-secondary, rounded-pill-badge </span>for its type.
                 </p>
 
                 <div class="avatar-container text-badge-container">

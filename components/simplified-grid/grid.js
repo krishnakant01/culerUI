@@ -8,7 +8,7 @@ gridTemplate.innerHTML = `
 
 <p class="sub-header">Example of 50:50 grid layout</p>
 
-<p>Add <span class="nav-U-I blue-text">grid-50-50-layout </span> class on wrapper div which is wrapping 2 divs.</p>
+<p>Add <span class="bold-font blue-text">grid-50-50-layout </span> class on wrapper div which is wrapping 2 divs.</p>
 
 <div class="avatar-container">
 
@@ -28,7 +28,7 @@ gridTemplate.innerHTML = `
 
 <p class="sub-header">Example of 70:30 grid layout</p>
 
-<p>Add <span class="nav-U-I red-text">grid-70-30-layout </span> class on wrapper div which is wrapping 2 divs.</p>
+<p>Add <span class="bold-font red-text">grid-70-30-layout </span> class on wrapper div which is wrapping 2 divs.</p>
 
 <div class="avatar-container">
 
@@ -48,7 +48,7 @@ gridTemplate.innerHTML = `
 
 <p class="sub-header">Example of 4 column grid layout</p>
 
-<p>Add <span class="nav-U-I red-text">grid-4-column-layout </span> class on wrapper div which is wrapping 2 divs.</p>
+<p>Add <span class="bold-font red-text">grid-4-column-layout </span> class on wrapper div which is wrapping 2 divs.</p>
 
 <div class="avatar-container">
 

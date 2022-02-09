@@ -6,7 +6,7 @@ navigationTemplate.innerHTML = `
 <p class="header-description">Navigation bar is used to navigate through the web apps or websites. This
     navigation component is responsive. It is a hamburger menu in medium and small devices.</p>
 
-<p>In Culer <span class="nav-U-I blue-text">U</span><span class="nav-U-I red-text">I</span>,
+<p>In Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>,
     we have 2 types of Navigation Bars available:
 </p>
 <p>1. Navigation Bar for Documentation websites.</p>
@@ -24,8 +24,8 @@ navigationTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="nav-U-I blue-text">U</span><span
-                            class="nav-U-I red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span
+                            class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -70,7 +70,7 @@ navigationTemplate.innerHTML = `
     </header>
 </div>
 
-<p>Use class name = <span class="nav-U-I blue-text">nav-container-bg-color</span>
+<p>Use class name = <span class="bold-font blue-text">nav-container-bg-color</span>
     for a different background color on your nav bar.</p>
 
 <div class="bar-container">
@@ -81,8 +81,8 @@ navigationTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="nav-U-I blue-text">U</span><span
-                            class="nav-U-I red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span
+                            class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -127,7 +127,7 @@ navigationTemplate.innerHTML = `
     </header>
 </div>
 
-<p>Use class name = <span class="nav-U-I blue-text">nav-container-bg-gradient</span>
+<p>Use class name = <span class="bold-font blue-text">nav-container-bg-gradient</span>
     for a different background color on your nav bar.</p>
 
 <div class="bar-container">
@@ -138,8 +138,8 @@ navigationTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="nav-U-I blue-text">U</span><span
-                            class="nav-U-I red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span
+                            class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -197,8 +197,8 @@ navigationTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        <span class="nav-U-I blue-text">Culer</span><span
-                            class="nav-U-I red-text">Store</span>
+                        <span class="bold-font blue-text">Culer</span><span
+                            class="bold-font red-text">Store</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -257,7 +257,7 @@ navigationTemplate.innerHTML = `
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        <span class="nav-U-I">CulerStore</span>
+                        <span class="bold-font">CulerStore</span>
                             
                     </div>
                     <div class="nav-tagline">Més que un Club</div>

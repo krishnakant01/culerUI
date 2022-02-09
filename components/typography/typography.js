@@ -9,7 +9,7 @@ typographyTemplate.innerHTML = `
 <p class="sub-header">Example of Heading Text</p>
 
 <p>For heading you can use h1, h2, h3, h4, h5, h6 elements.
-    Font size for these elements is defined under <span class="nav-U-I blue-text">text-badge-container
+    Font size for these elements is defined under <span class="bold-font blue-text">text-badge-container
     </span>
     class.</p>
 
@@ -27,9 +27,9 @@ typographyTemplate.innerHTML = `
 
 <p class="sub-header">Example of Paragraph Text</p>
 
-<p>We have 2 sizes for Paragraph Text. We use <span class="nav-U-I blue-text">lg-font-size </span> for
+<p>We have 2 sizes for Paragraph Text. We use <span class="bold-font blue-text">lg-font-size </span> for
     header description and
-    <span class="nav-U-I blue-text">rg-font-size </span> for sub-header description.
+    <span class="bold-font blue-text">rg-font-size </span> for sub-header description.
 </p>
 
 <div class="typography-container">
@@ -40,16 +40,16 @@ typographyTemplate.innerHTML = `
 <p class="sub-header">Example of Other Styled Text</p>
 <!-- <p>We have 2 types of colored text: primary and secondary text</p> -->
 <p>1.To make text color change to primary-text-color use class <span
-        class="nav-U-I red-text">red-text.</span></p>
+        class="bold-font red-text">red-text.</span></p>
 <p>2.To make text color change to secondary-text-color use class <span
-        class="nav-U-I blue-text">blue-text.</span></p>
-<p>3.To make text bold (weight: 600), add <span class="nav-U-I red-text">nav-U-I</span> class</p>
-<p>4.To strike-through the text, add <span class="nav-U-I blue-text">text-strike-through</span> class
+        class="bold-font blue-text">blue-text.</span></p>
+<p>3.To make text bold (weight: 600), add <span class="bold-font red-text">bold-font</span> class</p>
+<p>4.To strike-through the text, add <span class="bold-font blue-text">text-strike-through</span> class
 </p>
 <div class="typography-container">
     <p class="red-text">Text with primary color.</p>
     <p class="blue-text">Text with secondary color.</p>
-    <p class="nav-U-I">Text with bold font weight.</p>
+    <p class="bold-font">Text with bold font weight.</p>
     <p class="text-strike-through">Text with strike through.</p>
 </div>
 

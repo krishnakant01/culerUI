@@ -148,7 +148,7 @@
 
     .nav-link-list {
         position: fixed;
-        inset: 0 30% 0 0;
+        inset: 0 70% 0 0;
         background: rgba(255, 255, 255);
         margin: 0;
         padding: 6rem 0rem;
@@ -164,16 +164,22 @@
     }
 
     body {
-        overflow: hidden;
+        overflow-x: hidden;
         transition: 0.35s ease-out;
     }
 
     .mobile-nav-toggle {
+        position: sticky;
+        
         display: block;
     }
 }
 
 @media screen and (max-width: 30em) {
+    .nav-link-list{
+        inset: 0 30% 0 0;
+    }
+    
     .nav-title {
         font-size: 1.35rem;
     }

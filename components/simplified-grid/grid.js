@@ -32,7 +32,7 @@ gridTemplate.innerHTML = `
 
 <div class="avatar-container">
 
-    <div class="grid-70-30-layout">
+    <div class="grid-70-30-layout grid-dark-bg">
         <div>
             <img src="images/Alexia-Putellas-grid.png" alt="" class="image-responsive">
         </div>

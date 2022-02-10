@@ -21,6 +21,9 @@
 .grid-70-30-layout {
     display: grid;
     grid-template-columns: 70% 30%;
+    
+}
+.grid-dark-bg{
     background-color: var(--color-dark-mode-bg);
 }
 

@@ -25,8 +25,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 100%;
+    max-height: fit-content;
+    width: fit-content;
     padding: 1rem 0.5rem;
     max-width: 600px;
     border-radius: 0.25rem;
@@ -52,15 +52,21 @@
     margin: 0;
     text-align: center;
     color: var(--color-darker-gray);
-
 }
 .modal-container p {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
 .modal-img-cont {
-    width: 20rem;
+    max-width: 18rem;
+    max-height: 11.5rem;
 }
 .modal-img-cont img {
     width: 100%;
+}
+
+@media screen and (max-width: 60em){
+    .modal-container, .modal-container p{
+        font-size: 0.8rem;
+    }
 }

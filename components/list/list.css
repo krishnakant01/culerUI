@@ -1,77 +1,109 @@
-.list-container{
+.list-container {
     border-radius: 0.25rem;
     background-color: var(--color-light-blue);
     padding: 1rem 2rem 1rem 2.5rem;
 }
-.list-style-none.list-container{
-    padding-inline-start: 32px;
+
+.list-style-none.list-container {
+    padding-inline-start: 2rem;
 }
-.styled-list{
+
+.styled-list {
     margin-bottom: 1rem;
 }
-.styled-list li:not(:last-child){
+
+.styled-list li:not(:last-child) {
     padding-bottom: 0.625rem;
 }
-.list-style-circle{
+
+.list-style-circle {
     list-style-type: circle;
 }
-.list-style-square{
+
+.list-style-square {
     list-style-type: square;
 }
-.list-style-small-alpha{
-    list-style-type:lower-alpha;
+
+.list-style-small-alpha {
+    list-style-type: lower-alpha;
 }
-.list-style-capital-alpha{
-    list-style-type:upper-alpha;
+
+.list-style-capital-alpha {
+    list-style-type: upper-alpha;
 }
-.list-style-small-roman{
-    list-style-type:lower-roman;
+
+.list-style-small-roman {
+    list-style-type: lower-roman;
 }
-.list-style-capital-roman{
-    list-style-type:upper-roman;
+
+.list-style-capital-roman {
+    list-style-type: upper-roman;
 }
-.list-style-none{
+
+.list-style-none {
     list-style: none;
     padding-inline-start: 0;
 }
-.inline-list{
+
+.inline-list {
     display: flex;
 }
-.list-inline-item:not(:last-of-type){
+
+.list-inline-item:not(:last-of-type) {
     margin-right: 1.5rem;
 }
-.stacked-list{
-list-style: none;
-width: fit-content;
+
+.stacked-list {
+    list-style: none;
+    width: fit-content;
+    padding-left: 0;
 }
-.stacked-list li{
+
+.stacked-list li {
     border-radius: 0.25rem;
-    padding: 0.5rem 0rem;
     margin: 0.5rem;
     box-shadow: 0 0 3px rgb(0 0 0 / 30%);
     background-color: var(--color-light-blue);
 }
-.stacked-list-content{
+
+.stacked-list-content {
     color: var(--color-black);
     padding: 0.5rem 1rem;
     text-decoration: none;
     display: flex;
     gap: 0.5rem;
     align-items: flex-start;
-    justify-content: flex-start;  
+    justify-content: flex-start;
 }
-.notif-text p{
-    width: 20rem;
+
+.notif-text p {
+    max-width: 20rem;
     margin: 0;
 }
-.notif-name{
+
+.notif-name {
     font-size: 1.1rem;
 }
-.notif-msg{
+
+.notif-msg {
     color: var(--color-darker-gray);
-    padding:0.25rem 0.25rem ;
+    padding: 0.25rem 0.25rem;
     font-size: 0.9rem;
 }
-.stacked-list-content span i{
+
+.stacked-list-content span i {
     font-size: 2.25rem;
+}
+
+@media screen and (max-width:30em) {
+    .avatar-container{
+        gap: 1rem;
+    }
+    .notif-name {
+        font-size: 1rem;
+    }
+
+    .notif-msg {
+        font-size: 0.7rem;
+    }
 }

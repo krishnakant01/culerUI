@@ -27,6 +27,28 @@ sliderTemplate.innerHTML =`
 
 </div>
 
+<div class="code-snippet-display">
+        <code>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520id%253D%2522%2522%2520class%253D%2522default-slider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522default-slider%2522%253E%253Ci%2520class%253D%2522fas%2520fa-volume-up%2522%2520id%253D%2522slider-volume-up%2522%253E%253C%252Fi%253E%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522default-slider%2522%253E%253Ci%2520class%253D%2522fas%2520fa-volume-slash%2522%2520id%253D%2522slider-volume-mute%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520id%253D%2522default-slider%2522%2520class%253D%2522default-slider%2522%253E%250A%253C%252Fdiv%253E"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </code>
+</div>
+
+<p class="sub-header" style="color: var(--color-dark-gray)">Javascript</p>
+
+<div class="code-snippet-display">
+        <code>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520btnVolumeUp%2520%253D%2520document.querySelector%28%2522%2523slider-volume-up%2522%29%253B%250Aconst%2520btnVolumeMute%2520%253D%2520document.querySelector%28%2522%2523slider-volume-mute%2522%29%253B%250Aconst%2520defaultSlider%2520%253D%2520document.querySelector%28%2522%2523default-slider%2522%29%253B%250A%250AbtnVolumeMute.style.display%2520%253D%2520%2522none%2522%253B%250A%250AbtnVolumeUp.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520btnVolumeMute.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520btnVolumeUp.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520defaultSlider.value%2520%253D%25200%253B%250A%257D%29%253B%250A%250AbtnVolumeMute.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520btnVolumeMute.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%2520%2520btnVolumeUp.style.display%2520%253D%2520%2522block%2522%253B%250A%2520%2520%2520%2520defaultSlider.value%2520%253D%252050%253B%250A%257D%29%253B"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </code>
+</div>
+
 <p class="sub-header">Example of Custom Slider</p>
 
 <p>Use class name = id = <span class="bold-font blue-text">custom-slider </span> for input element
@@ -47,10 +69,30 @@ sliderTemplate.innerHTML =`
 
     </div>
 
+    <div class="code-snippet-display">
+        <code>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cstyle%2520data%253D%2522test%2522%2520type%253D%2522text%252Fcss%2522%253E%253C%252Fstyle%253E%250A%250A%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2509%253Cspan%2520class%253D%2522tooltip-value%2522%253E%253C%252Fspan%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520id%253D%2522custom-slider%2522%2520class%253D%2522custom-slider%2522%253E%250A%253C%252Fdiv%253E"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </code>
+    </div>
+
+    <p class="sub-header" style="color: var(--color-dark-gray)">Javascript</p>
+
+    <div class="code-snippet-display">
+        <code>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520customSlider%2520%253D%2520document.querySelector%28%2522%2523custom-slider%2522%29%253B%250Aconst%2520style%2520%253D%2520document.querySelector%28%27%255Bdata%253D%2522test%2522%255D%27%29%253B%250Aconst%2520tooltipValue%2520%253D%2520document.querySelector%28%2522.tooltip-value%2522%29%253B%250A%250Aconst%2520sliderWidth%2520%253D%2520customSlider.clientWidth%253B%250AsetData%28customSlider.value%29%253B%250A%250AcustomSlider.oninput%2520%253D%2520function%28%29%2520%257B%250A%2520%2520%2520%2520setData%28this.value%29%253B%250A%2520%2520%2520%2520setTranslationDistance%28this.value%29%253B%250A%257D%250A%250Afunction%2520setData%28x%29%2520%257B%250A%2520%2520%2520%2520tooltipValue.innerHTML%2520%253D%2520x%253B%250A%2520%2520%2520%2520style.innerHTML%2520%253D%2520%2522.custom-slider%253A%253A-webkit-slider-thumb%2520%257B%2520width%253A%2520%2522%2520%252B%2520%28x%2520%253C%252010%2520%253F%252010%2520%253A%2520%2810%2520%252B%2520%28x-10%29%252F9%29%29%2520%252B%2520%2522px%2520%21important%253B%2520height%253A%2520%2522%250A%2520%2520%2520%2520%2520%252B%2520%28x%2520%253C%252010%2520%253F10%253A%2520%2810%2520%252B%2520%28x-10%29%252F9%29%29%2520%252B%2520%2522px%2520%21important%253B%2520%257D%2522%253B%250A%257D%250A%250Afunction%2520setTranslationDistance%28x%29%2520%257B%250A%2520%2520%2520%2520const%2520translateDistance%2520%253D%2520%28x*sliderWidth%29%252F100%253B%250A%250A%2520%2520%2520%2520style.innerHTML%2520%253D%2520style.innerHTML%2520%252B%2520%2522.tooltip-value%2520%257B%2520transform%253A%2520translateX%28%2522%250A%2520%2520%2520%2520%2520%252B%2520%28translateDistance%2520-%2520sliderWidth%252F2%29%2520%252B%2520%2522px%29%2520%21important%253B%257D%2520.slider-container%2520.tooltip-value%253A%253Aafter%2520%257B%2520transform%253A%2520translateX%28%2522%250A%2520%2520%2520%2520%2520%252B%2520%28translateDistance%2520-%2520%28sliderWidth%252B2%29%252F2%29%2520%252B%2520%2522px%29%2520%21important%253B%257D%2522%253B%250A%257D"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </code>
+    </div>
 `;
 
 document.querySelector("#Slider").appendChild(sliderTemplate.content);
-
 
 const btnVolumeUp = document.querySelector("#slider-volume-up");
 const btnVolumeMute = document.querySelector("#slider-volume-mute");

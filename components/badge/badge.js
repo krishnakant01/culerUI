@@ -48,6 +48,17 @@ badgesTemplate.innerHTML = `
                         </span>
                         <span class="status-badge status-text">2</span>
                     </div>
+
+                </div>
+
+                <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520lg-size%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522images%252Favatar.png%2522%2520class%253D%2522img-round%2520img-responsive%2522%2520%2509%2509%2509%2509%2509%2509alt%253D%2522avatar%2522%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cspan%2520class%253D%2522status-badge%2520status-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520m-size%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522images%252Favatar.png%2522%2520class%253D%2522img-round%2520img-responsive%2522%2520%2509%2509%2509%2509%2509%2509alt%253D%2522avatar%2522%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cspan%2520class%253D%2522status-badge%2520status-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520s-size%2522%253E%250A%2509%2509%253Cimg%2520src%253D%2522images%252Favatar.png%2522%2520class%253D%2522img-round%2520img-responsive%2522%2520%2509%2509%2509%2509%2509%2509alt%253D%2522avatar%2522%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cspan%2520class%253D%2522status-badge%2520status-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cspan%2520class%253D%2522btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522status-badge%2520status-text%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </code>
                 </div>
 
                 <p class="sub-header">Example of Text Badges</p>
@@ -82,6 +93,16 @@ badgesTemplate.innerHTML = `
                         Example of Paragraph with Secondary Badge <span class="text-badge badge-secondary">New</span>
                     </p>
 
+                </div>
+
+                <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Heading%2520with%2520Primary%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520badge-%2509%2509primary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh2%253E%250A%250A%253Ch3%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Heading%2520with%2520Secondary%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520badge-%2509%2509secondary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh3%253E%250A%250A%253Ch4%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Heading%2520with%2520Primary%2520Rounded%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520%2509%2509badge-primary%2520rounded-pill-badge%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh4%253E%250A%250A%253Ch5%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Heading%2520with%2520Secondary%2520Rounded%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520%2509badge-secondary%2520rounded-pill-badge%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Heading%2520with%2520Primary%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520badge-%2509%2509primary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh6%253E%250A%250A%253Cp%2520class%253D%2522badge-container%2522%253E%250A%2509Example%2520of%2520Paragraph%2520with%2520Secondary%2520Badge%2520%253Cspan%2520class%253D%2522text-badge%2520badge-%2509secondary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fp%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
                 </div>
 `;
 

@@ -21,11 +21,17 @@ navigationTemplate.innerHTML = `
     <header>
         <nav class="nav-container">
 
+            <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="bold-font blue-text">U</span><span
-                            class="bold-font red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -33,7 +39,7 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-links">
 
-                <ul class="nav-link-list">
+                <ul class="nav-link-list" id="nav-link-list" data-visible="false">
 
                     <a href="/">
                         <li class="nav-link-list-item">Home</li>
@@ -49,21 +55,21 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-social-links">
 
-                <ul class="nav-link-list">
+                <ul class="">
 
                     <li class="social-link-list-items"><a href="mailto: singhkrishnakant3@gmail.com"><i
                                 class='fas fa-envelope'></i></a>
                     </li>
 
-                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01"
-                            target="_blank"><i class='fab fa-github'></i></a></li>
+                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01" target="_blank"><i
+                                class='fab fa-github'></i></a></li>
 
-                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01"
-                            target="_blank"><i class='fab fa-twitter'></i></a></li>
+                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01" target="_blank"><i
+                                class='fab fa-twitter'></i></a></li>
 
                     <li class="social-link-list-items"><a
-                            href="https://www.linkedin.com/in/krishnakant-singh-333450193/"
-                            target="_blank"><i class='fab fa-linkedin-in'></i></a></li>
+                                href="https://www.linkedin.com/in/krishnakant-singh-333450193/" target="_blank"><i
+                                    class='fab fa-linkedin-in'></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -78,11 +84,17 @@ navigationTemplate.innerHTML = `
     <header>
         <nav class="nav-container nav-container-bg-color">
 
+            <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="bold-font blue-text">U</span><span
-                            class="bold-font red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -90,7 +102,7 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-links">
 
-                <ul class="nav-link-list">
+                <ul class="nav-link-list" id="nav-link-list" data-visible="false">
 
                     <a href="/">
                         <li class="nav-link-list-item">Home</li>
@@ -106,21 +118,21 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-social-links">
 
-                <ul class="nav-link-list">
+                <ul class="">
 
                     <li class="social-link-list-items"><a href="mailto: singhkrishnakant3@gmail.com"><i
                                 class='fas fa-envelope'></i></a>
                     </li>
 
-                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01"
-                            target="_blank"><i class='fab fa-github'></i></a></li>
+                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01" target="_blank"><i
+                                class='fab fa-github'></i></a></li>
 
-                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01"
-                            target="_blank"><i class='fab fa-twitter'></i></a></li>
+                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01" target="_blank"><i
+                                class='fab fa-twitter'></i></a></li>
 
                     <li class="social-link-list-items"><a
-                            href="https://www.linkedin.com/in/krishnakant-singh-333450193/"
-                            target="_blank"><i class='fab fa-linkedin-in'></i></a></li>
+                                href="https://www.linkedin.com/in/krishnakant-singh-333450193/" target="_blank"><i
+                                    class='fab fa-linkedin-in'></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -135,11 +147,17 @@ navigationTemplate.innerHTML = `
     <header>
         <nav class="nav-container nav-container-bg-gradient">
 
+            <div class="mobile-nav-toggle" aria-controls="nav-link-list" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <div class="nav-logo">
                 <a href="/">
                     <div class="nav-title">
-                        Culer <span class="bold-font blue-text">U</span><span
-                            class="bold-font red-text">I</span>
+                        Culer <span class="bold-font blue-text">U</span><span class="bold-font red-text">I</span>
                     </div>
                     <div class="nav-tagline">Més que un Club</div>
                 </a>
@@ -147,7 +165,7 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-links">
 
-                <ul class="nav-link-list">
+                <ul class="nav-link-list" id="nav-link-list" data-visible="false">
 
                     <a href="/">
                         <li class="nav-link-list-item">Home</li>
@@ -163,21 +181,21 @@ navigationTemplate.innerHTML = `
 
             <div class="nav-social-links">
 
-                <ul class="nav-link-list">
+                <ul class="">
 
                     <li class="social-link-list-items"><a href="mailto: singhkrishnakant3@gmail.com"><i
                                 class='fas fa-envelope'></i></a>
                     </li>
 
-                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01"
-                            target="_blank"><i class='fab fa-github'></i></a></li>
+                    <li class="social-link-list-items "><a href="https://github.com/krishnakant01" target="_blank"><i
+                                class='fab fa-github'></i></a></li>
 
-                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01"
-                            target="_blank"><i class='fab fa-twitter'></i></a></li>
+                    <li class="social-link-list-items"><a href="https://twitter.com/krishnakant_01" target="_blank"><i
+                                class='fab fa-twitter'></i></a></li>
 
                     <li class="social-link-list-items"><a
-                            href="https://www.linkedin.com/in/krishnakant-singh-333450193/"
-                            target="_blank"><i class='fab fa-linkedin-in'></i></a></li>
+                                href="https://www.linkedin.com/in/krishnakant-singh-333450193/" target="_blank"><i
+                                    class='fab fa-linkedin-in'></i></a></li>
                 </ul>
             </div>
         </nav>

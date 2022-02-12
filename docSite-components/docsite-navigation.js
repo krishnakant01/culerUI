@@ -76,7 +76,7 @@ navToggle.addEventListener("click", () => {
 
         navLinks.setAttribute("data-visible", true);
         navToggle.setAttribute("aria-expanded", true);
-
+        document.body.style.overflow = "hidden";
 
         document.body.style.background = " rgba(0, 0, 0, 0.4)";
 
@@ -86,7 +86,7 @@ navToggle.addEventListener("click", () => {
     } else {
         navLinks.setAttribute("data-visible", false);
         navToggle.setAttribute("aria-expanded", false);
-
+        document.body.style.overflow = "visible";
         document.body.style.background = "none";
 
         line1.classList.remove("translate");
@@ -98,8 +98,9 @@ navToggle.addEventListener("click", () => {
 let resizeTimer;
 window.addEventListener("resize", () => {
     document.body.classList.add("resize-animation-stopper");
-    clearTimeout(resizeTimer);
+  
     resizeTimer = setTimeout(() => {
         document.body.classList.remove("resize-animation-stopper");
+        clearTimeout(resizeTimer);
     }, 400);
 });

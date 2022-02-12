@@ -20,6 +20,7 @@
 
 .grid-70-30-layout {
     display: grid;
+    gap: 0.5rem;
     grid-template-columns: 70% 30%;
     
 }
@@ -42,4 +43,16 @@
     width: 100%;
     max-width: 56.5rem;
     margin: auto;
+}
+
+@media screen and (max-width: 60em) {
+    .grid-70-30-layout{
+        grid-template-columns: 1fr;
+    }
+    .grid-50-50-layout{
+        grid-template-columns: 1fr;
+    }
+    .grid-4-column-layout{
+        grid-template-columns: 1fr 1fr;
+    }
 }

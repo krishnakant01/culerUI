@@ -1,4 +1,4 @@
-.bar-container{
+.bar-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -8,32 +8,39 @@
     margin: 2rem 0rem;
     box-shadow: 0 0 10px 4px rgb(0 0 0 / 10%);
 }
-.alert-primary{
+
+.alert-primary {
     background-color: var(--color-medium-blue);
     color: var(--color-barcelona-blue);
     padding: 1rem;
     border-radius: 0.25rem;
 }
-.alert-success{
+
+.alert-success {
     display: flex;
     background-color: var(--color-alert-success);
     color: var(--color-alert-succes-text);
     padding: 1rem;
     border-radius: 0.25rem;
 }
-.alert-error{
+
+.alert-error {
+    display: flex;
     background-color: var(--color-primary-complimentary);
     color: var(--color-barcelona-red);
     padding: 1rem;
     border-radius: 0.25rem;
 }
-.alert-warning{
+
+.alert-warning {
+    display: flex;
     background-color: var(--color-alert-warning);
     color: var(--color-alert-warning-text);
     padding: 1rem;
     border-radius: 0.25rem;
 }
-.close-btn{
+
+.close-btn {
     background-color: transparent;
     border: 0px;
     color: var(--color-alert-succes-text);
@@ -41,8 +48,8 @@
     font-size: 1.25rem;
     transition: all 0.3s ease-in-out;
 }
-.close-btn:hover{
+
+.close-btn:hover {
     cursor: pointer;
     color: var(--color-black);
-   
 }

@@ -1,44 +1,49 @@
-.avatar-container{
+.avatar-container {
     display: flex;
     gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
     border-radius: 0.25rem;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1rem;
     margin: 2rem 0rem;
     box-shadow: 0 0 10px 4px rgb(0 0 0 / 10%);
 }
-.avatar{
+
+.avatar {
     border-radius: 50%;
-    /* border: 2px solid var(--color-darker-gray); */
-   
 }
-.avatar-text{
+
+.avatar-text {
     text-align: center;
     background-color: var(--color-medium-blue);
     color: var(--color-barcelona-blue);
 }
-.lg-size{
-    width:10rem;
+
+.lg-size {
+    width: 10rem;
     height: 10rem;
     font-size: 3rem;
 }
-.m-size{
+
+.m-size {
     width: 6.25rem;
     height: 6.25rem;
     font-size: 2rem;
 }
-.s-size{
+
+.s-size {
     width: 3rem;
     height: 3rem;
     font-size: 1rem;
 }
-.img-round{
+
+.img-round {
     margin: 0;
     padding: 0;
     border-radius: 50%;
 }
-.img-responsive{
+
+.img-responsive {
     width: 100%;
     height: 100%;
 }

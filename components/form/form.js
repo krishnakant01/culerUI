@@ -28,8 +28,16 @@ formTemplate.innerHTML = `
                     <textarea type="email" class="form-field form-textarea" placeholder="start writing here.."
                         rows="3"></textarea>
                 </div>
-            </div>
 
+                <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522form-label%2520form-label-required-field%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-field%2522%2520placeholder%253D%2522name%2540example.com%2522%2520required%253E%250A%250A%253Clabel%2520class%253D%2522form-label%2522%253EExample%2520Textarea%253C%252Flabel%253E%250A%253Ctextarea%2520type%253D%2522email%2522%2520class%253D%2522form-field%2520form-textarea%2522%2520placeholder%253D%2522start%2520writing%2520here..%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rows%253D%25223%2522%253E%253C%252Ftextarea%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
 
             <p class="sub-header">Example of Disabled/Read only form fields</p>
             <p>Add <span class="bold-font blue-text">disabled</span> attribute to your form element to make them
@@ -39,13 +47,23 @@ formTemplate.innerHTML = `
 
             <div class="bar-container">
 
-                <div class="row">
+                <div>
                     <input type="email" class="form-field" placeholder="Disabled input" disabled>
                 </div>
 
-                <div class="row">
+                <div>
                     <input type="email" class="form-field" placeholder="Disabled read only" disabled readonly>
                 </div>
+            </div>
+
+            <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-field%2522%2520placeholder%253D%2522Disabled%2520input%2522%2520disabled%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2509%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-field%2522%2520placeholder%253D%2522Disabled%2520read%2520only%2522%2520disabled%2520readonly%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
             </div>
 
             <p class="sub-header">Example of Read only plain text form field</p>
@@ -54,13 +72,13 @@ formTemplate.innerHTML = `
                 element.</p>
 
             <div class="bar-container">
-                <div class="row">
+                <div>
 
                     <label class="form-label">Enter email</label>
 
                     <input class="form-field form-field-plain-text" value="name@example.com" required readonly />
                 </div>
-                <div class="row">
+                <div>
 
                     <label class="form-label">Enter password</label>
 
@@ -69,12 +87,23 @@ formTemplate.innerHTML = `
                 </div>
             </div>
 
+            <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253EEnter%2520email%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2520form-field-plain-text%2522%2520value%253D%2522name%2540example.com%2522%2520required%2520readonly%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253EEnter%2520password%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2522%2520placeholder%253D%2522enter%2520password%2520here%2522%2520required%2520%252F%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+            </div>
+
             <p class="sub-header">Example of Form Validation</p>
             <p>Below is the form validation example. You can have error message and check passed message on field
                 level. For classes checkout the code snippet below.</p>
+            
             <div class="bar-container">
                 <form class="submit-form-example" novalidate>
-                    <div class="row">
+                    <div>
                         <div>
                             <label class="form-label form-label-required-field">Email</label>
                         </div>
@@ -89,7 +118,7 @@ formTemplate.innerHTML = `
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div>
                         <div>
                             <label class="form-label form-label-required-field">Select your country</label>
                         </div>
@@ -105,7 +134,7 @@ formTemplate.innerHTML = `
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div>
                         <div>
                             <label class="form-label">Gender</label>
                         </div>
@@ -123,7 +152,7 @@ formTemplate.innerHTML = `
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div>
                         <div>
                             <input class="form-checkbox-field" type="checkbox" required />
                             <label class="form-label form-label-required-field" style=" margin-top: 2rem;"> Yes, I accept the terms.</label>
@@ -137,6 +166,18 @@ formTemplate.innerHTML = `
                     <button class="btn btn-outlined-primary" style=" margin-top: 0.875rem;" type="submit">Submit</button>
 
                 </form>
+
+            </div>
+
+            <div class="code-snippet-display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=650&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522submit-form-example%2522%2520novalidate%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2520form-label-required-field%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522name%2540example.com%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520pattern%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-validation-msg%2520form-field-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-field-symbol%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Please%2520enter%2520your%2520email%2520address%21%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-validation-msg%2520form-field-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-field-symbol%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520check%2520pass%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2520form-label-required-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Select%2520your%2520country%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cselect%2520class%253D%2522form-field%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522India%2522%253EIndia%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522China%2522%253EChina%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522Australia%2522%253EAustralia%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522New%2520Zealand%2522%253ENew%2520Zealand%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522USA%2522%253EUSA%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%253EGender%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-checkbox-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522gender%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520value%253D%2522F%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522female%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%253EFemale%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-checkbox-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522gender%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520value%253D%2522M%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522male%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522male%2522%253EMale%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522form-checkbox-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522gender%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520value%253D%2522O%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522other%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522other%2522%253EOther%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522checkbox%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520c"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+            </div>
 `;
 
 document.querySelector("#Form").appendChild(formTemplate.content);

@@ -131,3 +131,55 @@
     font-size: 1rem;
     color: var(--color-darker-gray);
 }
+
+@media screen and (max-width: 60em) {
+    .text-badge-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-badge-container h2 {
+        font-size: 2.25rem;
+    }
+
+    .text-badge-container h3 {
+        font-size: 1.9rem;
+    }
+
+    .text-badge-container h4 {
+        font-size: 1.5rem;
+    }
+
+    .text-badge-container h5 {
+        font-size: 1.25rem;
+    }
+
+    .text-badge-container h6 {
+        font-size: 1.20rem;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .text-badge-container h1 {
+        font-size: 2.25rem;
+    }
+
+    .text-badge-container h2 {
+        font-size: 2rem;
+    }
+
+    .text-badge-container h3 {
+        font-size: 1.65rem;
+    }
+
+    .text-badge-container h4 {
+        font-size: 1.25rem;
+    }
+
+    .text-badge-container h5 {
+        font-size: 1.15rem;
+    }
+
+    .text-badge-container h6 {
+        font-size: 1.1rem;
+    }
+}

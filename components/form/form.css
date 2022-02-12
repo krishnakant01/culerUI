@@ -1,14 +1,16 @@
-.form-label{
+.form-label {
     display: inline-block;
     padding-bottom: 0.625rem;
     box-sizing: border-box;
     margin-top: 0.875rem;
 }
-.form-label-required-field::after{
+
+.form-label-required-field::after {
     content: "*";
     color: var(--color-barcelona-red);
 }
-.form-field{
+
+.form-field {
     width: 95%;
     display: block;
     padding: 0.5rem;
@@ -17,56 +19,70 @@
     line-height: 2;
     outline: none;
 }
-.form-field:focus{
+
+.form-field:focus {
     box-shadow: 0 0 0 1px var(--color-barcelona-red);
 }
-.form-field:disabled{
+
+.form-field:disabled {
     background-color: var(--color-light-gray);
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
-.form-field-plain-text:read-only{
+
+.form-field-plain-text:read-only {
     border: none;
     background-color: transparent;
 }
-.form-validation-msg{
+
+.form-validation-msg {
     margin-top: 0.25rem;
     font-size: 0.875rem;
     line-height: 21px;
     display: none;
 }
-.form-field-error{
+
+.form-field-error {
     color: var(--color-barcelona-red);
 }
-.form-field-success{
+
+.form-field-success {
     color: var(--color-alert-succes-text);
 }
-.form-field-symbol{
+
+.form-field-symbol {
     padding-right: 0.25rem;
 }
-.form-validated :invalid~.form-field-error{
+
+.form-validated :invalid~.form-field-error {
     margin: 0.5rem 0rem 0.75rem 0rem;
     display: block;
 }
-.form-validated :valid~.form-field-success{
+
+.form-validated :valid~.form-field-success {
     margin: 0.5rem 0rem 0.75rem 0rem;
     display: block;
 }
-.form-checkbox-field{
+
+.form-checkbox-field {
     width: 1rem;
     height: 1rem;
     display: inline-block;
     margin-right: 0.25rem;
     accent-color: var(--color-barcelona-red);
 }
-.form-checkbox-field:focus{
+
+.form-checkbox-field:focus {
     box-shadow: 0 0 0 1px var(--color-barcelona-red);
 }
-.form-checkbox-field:focus-within{
+
+.form-checkbox-field:focus-within {
     box-shadow: 0 0 0 1px var(--color-barcelona-red);
 }
-.submit-form-example{
+
+.submit-form-example {
     width: 100%;
 }
-select.form-field option{
+
+select.form-field option {
     margin: 1rem;
 }

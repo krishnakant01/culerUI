@@ -77,7 +77,6 @@ navToggle.addEventListener("click", () => {
         navLinks.setAttribute("data-visible", true);
         navToggle.setAttribute("aria-expanded", true);
         document.body.style.overflow = "hidden";
-
         document.body.style.background = " rgba(0, 0, 0, 0.4)";
 
         line1.classList.add("translate");

@@ -13,6 +13,7 @@
 
 .home-text-container p {
     font-size: 1.4rem;
+    line-height: 1.5;
 }
 
 .button-container {
@@ -30,7 +31,7 @@
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-areas: "text code";
-    margin: 0rem 2rem 2rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
 }
 
 .install-text-container {
@@ -42,11 +43,12 @@
 
 .install-container p {
     font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 .install-heading {
     font-size: 2rem;
-    margin: 2rem 2rem 0rem 2rem;
+    margin: 3rem 2rem 0rem 2rem;
 }
 
 @media screen and (max-width: 60em) {
@@ -99,5 +101,8 @@
 
     .install-heading {
         font-size: 1.5rem;
+    }
+    .install-container p {
+        font-size: 1rem;
     }
 }

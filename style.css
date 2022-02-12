@@ -59,15 +59,18 @@ body {
 hr {
     margin-top: 2rem;
 }
-
+p{
+    line-height: 1.5;
+}
 .code-snippet-display {
     grid-area: code;
     width: 100%;
-    max-height: 300px;
+    max-height: 250px;
     padding: 1rem 0;
     background-color: #FAFAFA;
-    margin: auto 0;
+    margin: 2rem 0;
     overflow: auto;
+    border: 1px solid var(--color-barcelona-red);
 }
 
 .code-snippet-display iframe {
@@ -167,6 +170,7 @@ hr {
 
 .header-description {
     font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 .sub-header {
@@ -190,7 +194,6 @@ hr {
         transition: 0.2s ease-out;
         z-index: 1;
         overflow-y: scroll;
-
     }
 
     .sidebar-header {
@@ -210,5 +213,19 @@ hr {
         cursor: pointer;
         transition: 0.2s ease-out;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:60em) {
+    .component-header {
+        font-size: 1.75rem;
+    }
+
+    .header-description {
+        font-size: 1.125rem;
+    }
+
+    .sub-header {
+        font-size: 1.25rem;
     }
 }

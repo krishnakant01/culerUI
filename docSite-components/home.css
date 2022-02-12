@@ -100,4 +100,7 @@
     .install-heading {
         font-size: 1.5rem;
     }
+    .install-container p {
+        font-size: 1rem;
+    }
 }

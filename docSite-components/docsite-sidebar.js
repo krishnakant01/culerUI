@@ -1,8 +1,9 @@
 const sidebarTemplate = document.createElement('template');
 
 sidebarTemplate.innerHTML = `
-
-<h2 class="sidebar-header">Components</h2>
+<div>
+    <h2 class="sidebar-header">Components </h2><span class="btn-dropdown" id="btn-dropdown"><i class="fas fa-angle-down"></i></span>
+    
 
             <ul class="sidebar-list">
                 <a href="#Alert">
@@ -48,6 +49,44 @@ sidebarTemplate.innerHTML = `
                     <li class="sidebar-link-item">Typography</li>
                 </a>
             </ul>
-`;
+</div>
 
+`;
 document.querySelector(".sidebar-container").appendChild(sidebarTemplate.content);
+
+const dropdownButton = document.querySelector("#btn-dropdown");
+const sidebarList = document.querySelector(".sidebar-list");
+const sidebarContainer = document.querySelector(".sidebar-container");
+const sidebarHeader = document.querySelector(".sidebar-header");
+
+let sidebarOpen = false;
+
+sidebarHeader.addEventListener("click", onClickHandler);
+
+dropdownButton.addEventListener("click", onClickHandler);
+
+function onClickHandler() {
+    if (sidebarOpen === false) {
+        openSidebar();
+        sidebarList.addEventListener("click", closeSidebar);
+
+    } else {
+        closeSidebar();
+    }
+}
+
+function openSidebar() {
+    sidebarList.style.display = "block";
+    sidebarContainer.style.height = "100vh";
+    dropdownButton.classList.add("rotate-180deg");
+    document.body.style.overflow = "hidden";
+    sidebarOpen = true;
+}
+
+function closeSidebar() {
+    sidebarList.style.display = "none";
+    dropdownButton.classList.remove("rotate-180deg");
+    sidebarContainer.style.height = "fit-content";
+    document.body.style.overflow = "visible";
+    sidebarOpen = false;
+}

@@ -56,7 +56,8 @@ To know about the styled components, their variations, read the documentaion.
 
  Mobile Responsive
  
- ![image](https://user-images.githubusercontent.com/63720159/153748669-3d6ff229-2ab7-48ad-b6cc-dbbc5a6a0f5e.png)        ![image](https://user-images.githubusercontent.com/63720159/153748698-11bdb25d-1f0e-4f7b-9c71-b11317635628.png)
+ ![image](https://user-images.githubusercontent.com/63720159/153748669-3d6ff229-2ab7-48ad-b6cc-dbbc5a6a0f5e.png)
+ ![image](https://user-images.githubusercontent.com/63720159/153748698-11bdb25d-1f0e-4f7b-9c71-b11317635628.png)
 
 
 

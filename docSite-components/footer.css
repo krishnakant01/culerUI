@@ -1,0 +1,17 @@
+.footer-links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light-gray);
+}
+
+.footer-links i {
+    color: var(--color-light-gray);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-links i:hover {
+    color: var(--color-barcelona-red);
+}

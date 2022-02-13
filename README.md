@@ -46,7 +46,17 @@ To know about the styled components, their variations, read the documentaion.
 
 [Culer UI](https://culer-ui.netlify.app/)
 ## Screenshots
+ Home Page
+ 
+![image](https://user-images.githubusercontent.com/63720159/153748547-459116fa-39d9-497b-96e3-2dfa4a3db38f.png)
 
+ Documentation
+ 
+![image](https://user-images.githubusercontent.com/63720159/153748574-9e84b6e3-84d5-423d-b795-9cf7f9dad3b3.png)
+
+ Mobile Responsive
+ 
+ ![image](https://user-images.githubusercontent.com/63720159/153748669-3d6ff229-2ab7-48ad-b6cc-dbbc5a6a0f5e.png) ![image](https://user-images.githubusercontent.com/63720159/153748698-11bdb25d-1f0e-4f7b-9c71-b11317635628.png)
 
 
 

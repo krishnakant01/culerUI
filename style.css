@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
 
 @import 'docSite-components/home.css';
+@import 'docSite-components/footer.css';
 @import 'components/alert/alert.css';
 @import 'components/avatar/avatar.css';
 @import 'components/badge/badge.css';
@@ -59,52 +60,9 @@ body {
 hr {
     margin-top: 2rem;
 }
-p{
+
+p {
     line-height: 1.5;
-}
-.code-snippet-display {
-    grid-area: code;
-    width: 100%;
-    max-height: 250px;
-    padding: 1rem 0;
-    background-color: #FAFAFA;
-    margin: 2rem 0;
-    overflow: auto;
-    border: 1px solid var(--color-barcelona-red);
-}
-
-.code-snippet-display iframe {
-    width: 100%;
-    border: none;
-}
-
-.footer {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    background-color: var(--color-dark-mode-bg);
-    border-radius: 0.5rem 0.5rem 0 0;
-    color: var(--color-light-gray);
-    text-align: center;
-    padding: 0.75rem;
-}
-
-.footer-links {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-light-gray);
-}
-
-.footer-links i {
-    color: var(--color-light-gray);
-    transition: all 0.2s ease-in-out;
-}
-
-.footer-links i:hover {
-    color: var(--color-barcelona-red);
 }
 
 .outest-grid-container {
@@ -123,7 +81,25 @@ p{
     padding-top: 0;
     position: sticky;
     top: 0rem;
-    height: fit-content;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.sidebar-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray);
+    border-radius: 50rem;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-dark-gray);
 }
 
 .sidebar-header {
@@ -178,6 +154,33 @@ p{
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-darker-gray);
+}
+
+.code-snippet-display {
+    grid-area: code;
+    width: 100%;
+    max-height: 250px;
+    padding: 1rem 0;
+    background-color: #FAFAFA;
+    margin: 2rem 0;
+    overflow: auto;
+    border: 1px solid var(--color-barcelona-red);
+}
+
+.code-snippet-display iframe {
+    width: 100%;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--color-dark-mode-bg);
+    border-radius: 0.5rem 0.5rem 0 0;
+    color: var(--color-light-gray);
+    text-align: center;
+    padding: 0.75rem;
 }
 
 @media screen and (max-width:60em) {

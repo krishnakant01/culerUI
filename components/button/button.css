@@ -88,19 +88,19 @@
 
 /*--------------------- Link Buttons ----------------------*/
 
-.btn-link {
-
-    background-color: transparent;
-    color: var(--color-barcelona-blue);
+.btn-link{
     font-size: 1rem;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
-    text-decoration: dashed;
-    text-decoration-color: var(--color-barcelona-blue);
+    color: var(--color-darker-gray);
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: var(--color-barcelona-red);
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .btn-link:hover {
-    background-color: var(--color-light-blue);
+    color: var(--color-barcelona-red);
 }
 
 .btn-link-primary {
@@ -252,7 +252,7 @@
     color: var(--color-white);
     padding: 1rem 1.125rem;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%);
-    transition: 0.4s ease;
+    transition: 0.25s ease;
 }
 
 .btn-floating-action:hover {

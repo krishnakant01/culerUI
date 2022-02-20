@@ -24,7 +24,7 @@ alertTemplate.innerHTML = `
                 <div class="bar-container">
 
                     <div class="alert-primary">
-                        Primary Alert Bar with a text link. <a href="#Alerts"> Click here.</a>
+                        Primary Alert Bar with a text link. <a href="#Alerts" class="btn-link"> Click here.</a>
                     </div>
 
                     <div class="alert-success">

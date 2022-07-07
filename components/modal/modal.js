@@ -103,11 +103,11 @@ const btnModalClose = document.querySelector("#btn-modal-close");
 const modalScreen = document.querySelector("#modal-screen");
 
 btnModalCTA.addEventListener("click", ()=>{
-    modalScreen.classList.add("active");
+    modalScreen.classList.add("modal-active");
     document.body.style.overflow = "hidden";
 });
 
 btnModalClose.addEventListener("click", ()=>{
-    modalScreen.classList.remove("active");
+    modalScreen.classList.remove("modal-active");
     document.body.style.overflow = "visible";
 });

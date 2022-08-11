@@ -23,7 +23,6 @@
     position: fixed;
     left: 10px;
     bottom: 10px;
-    display: none;
     z-index: 4;
 }
 .snackbar-btn-close {

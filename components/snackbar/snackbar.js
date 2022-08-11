@@ -33,7 +33,7 @@ snackbarTemplate.innerHTML = `
                             <span class="material-icons snackbar-btn-close" id="btn-error-close">close</span>
                         </div>
 
-                        <div class="snackbar snackbar-simple">
+                        <div class="snackbar snackbar-black-bg padding05-1">
                             Saving to server...
                             <button class="btn btn-text-secondary card-btn snackbar-btn">UNDO</button>
                             <span class="material-icons snackbar-btn-close btn-simple-close" id="btn-simple-close">close</span>

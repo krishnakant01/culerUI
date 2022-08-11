@@ -13,10 +13,12 @@
     background-color: var(--color-primary-complimentary);
     color: var(--color-barcelona-red);
 }
-.snackbar-simple {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: var(--color-white);
+.snackbar-with-button {
     padding: 0.5rem 1rem;
+}
+.snackbar-black-bg{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: var(--color-white);  
 }
 .snackbar-demo{
     width: 18rem;

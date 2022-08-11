@@ -94,6 +94,8 @@ const btnSnackbarCTA = document.querySelector("#snackbar-CTA");
 const snackbar = document.querySelector(".snackbar-demo");
 const btnSnackbarClose = document.querySelector("#btn-snackbar-close");
 
+snackbar.style.display = "none"
+
 btnSnackbarCTA.addEventListener("click", () => {
 
     snackbar.style.display = "block"
